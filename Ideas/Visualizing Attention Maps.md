@@ -1,0 +1,1 @@
+Using the Works of [[What LVLM looks at when Answering Question]] we can get the crucial and citical tokens of the freeforms texts then use [[Open-Vocabulary Attention Maps]] to get the attention maps to see what the LVLM looks at when genertaing answers

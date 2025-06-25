@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Latent CoT Alignment.md",
+                "file": "Papers/VoCoT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latent CoT Alignment"
+              "title": "VoCoT"
             }
           }
         ],
@@ -176,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,12 +190,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e5f0b0eefdcc5fff",
+  "active": "9933c391b89e469d",
   "lastOpenFiles": [
-    "Ideas/Untitled.canvas",
+    "Ideas/Interleaved Tokens for Reasoing.md",
+    "Papers/VoCoT.md",
     "Ideas/Latent CoT Alignment.md",
+    "Papers/What LVLM looks at when Answering Question.md",
+    "Papers/Open-Vocabulary Attention Maps.md",
+    "Ideas/Visualizing Attention Maps.md",
+    "Ideas/Latent CoT Workflow.canvas",
     "Ideas/Latent CoT in AR Models.md",
-    "Visual CoT.md",
+    "Papers/Visual CoT.md",
     "Papers/Vision as a Dialect.md",
     "Ideas",
     "Papers/images/Pasted image 20250625232934.png",
