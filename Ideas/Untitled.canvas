@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"ae8aefff9bc9c817","x":-260,"y":-222,"width":92,"height":60,"type":"text","text":"Text"},
+		{"id":"62d90bd3fcaaa0ad","x":-140,"y":-222,"width":120,"height":60,"type":"text","text":"Image"},
+		{"id":"32ed67df7e34e64e","x":-100,"y":-120,"width":250,"height":60,"type":"text","text":"Image Encoder"},
+		{"id":"f597a86e02b4b036","x":-440,"y":-120,"width":250,"height":60,"type":"text","text":"Text Encoder"},
+		{"id":"04c4cd127e350e33","x":-260,"y":0,"width":250,"height":114,"type":"text","text":"Model to convert these 2 represenation in a prodict space or a N-dim manifold"},
+		{"id":"d571d9d508c31131","x":-10,"y":240,"width":250,"height":60,"type":"text","text":"AR Model"},
+		{"id":"1def47b8847ced2d","x":-10,"y":160,"width":250,"height":60,"type":"text","text":"[[Latent CoT Alignment]]"},
+		{"id":"370b1a92c9ff44dd","x":240,"y":27,"width":250,"height":60,"type":"text","text":"Product Space to Text and Image Space"}
+	],
+	"edges":[
+		{"id":"c5d53088a73868cc","fromNode":"ae8aefff9bc9c817","fromSide":"bottom","toNode":"f597a86e02b4b036","toSide":"top"},
+		{"id":"631568f4ddc80080","fromNode":"62d90bd3fcaaa0ad","fromSide":"bottom","toNode":"32ed67df7e34e64e","toSide":"top"},
+		{"id":"fcb585c3753a5e7a","fromNode":"f597a86e02b4b036","fromSide":"bottom","toNode":"04c4cd127e350e33","toSide":"left"},
+		{"id":"400bfa7a6189e3b8","fromNode":"32ed67df7e34e64e","fromSide":"bottom","toNode":"04c4cd127e350e33","toSide":"right"},
+		{"id":"129131f2160e174b","fromNode":"04c4cd127e350e33","fromSide":"bottom","toNode":"d571d9d508c31131","toSide":"left"},
+		{"id":"8c9aa7e385384687","fromNode":"d571d9d508c31131","fromSide":"right","toNode":"1def47b8847ced2d","toSide":"right"},
+		{"id":"88d168a3f30ba1bc","fromNode":"1def47b8847ced2d","fromSide":"left","toNode":"d571d9d508c31131","toSide":"left"},
+		{"id":"b9ec3bee97349942","fromNode":"d571d9d508c31131","fromSide":"right","toNode":"370b1a92c9ff44dd","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,5 @@
+So The core idea was since papers like [[Visual CoT]] [[VoCoT]] [[VisRL]] all talks about chain of though in multimodal language models. In these works the chain of thought is in text space. So basically the MLLM is thinnk in texts but the hypothesis is that to capture abstract reasoning and higher dimensional reasoning between image and text can we think in representation/latent space. So The idea is to implement CoT in Latent space of Auto regressive models
+
+This papers trains the AR model in a space where images are also projected and quantized into the text space[[Vision as a Dialect]]. Instead of projecting image into text, can we project both the text and image representation into a product space and let the AR model learn the quantized token of the product space. while generation can we perform CoT in this quantized space.
+
+[[]]

@@ -1,0 +1,1 @@
+So what we are talking about is that in a benchmark dataset we have image,text pair and the corresponsing CoT. Convert this CoT into corresponsing embedding or representation and one component of my loss is the minimize the distance metric between the generated CoT of the model and the ground truth
