@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "de1c3baefe17cf0b",
+        "id": "a348cae9407d1c44",
         "type": "tabs",
         "children": [
           {
-            "id": "e98af0becedd9f7d",
+            "id": "0a219b3fdc25e297",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Papers/Vision as a Dialect- Unifying Visual Understanding and Generation via Text Aligned Representation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Vision as a Dialect- Unifying Visual Understanding and Generation via Text Aligned Representation"
             }
           }
         ]
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,10 +177,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e98af0becedd9f7d",
+  "active": "9933c391b89e469d",
   "lastOpenFiles": [
+    "Papers/images/Pasted image 20250625232934.png",
+    "Papers/images/Pasted image 20250625232243.png",
+    "Papers/Vision as a Dialect- Unifying Visual Understanding and Generation via Text Aligned Representation.md",
+    "Papers/images",
+    "Welcome.md",
+    "Papers/Untitled 1.md",
+    "Untitled",
+    "Papers",
     "Untitled.canvas",
-    "2025-06-25.md",
-    "Welcome.md"
+    "2025-06-25.md"
   ]
 }
