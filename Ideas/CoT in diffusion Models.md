@@ -1,0 +1,1 @@
+Aling the time steps of the Diffusion model with that of the representation of the CoT steps. So the diffusion loss with hav an additional component of minimising the distance between the diffusion step at time t and the CoT representation at time t

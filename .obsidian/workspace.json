@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoT in diffusion Models.md",
+                "file": "Ideas/CoT in diffusion Models.md",
                 "mode": "source",
                 "source": false
               },
@@ -219,10 +219,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "50569d9c521a5f76",
+  "active": "9933c391b89e469d",
   "lastOpenFiles": [
     "Ideas/Latent CoT Alignment.md",
-    "CoT in diffusion Models.md",
+    "Ideas/CoT in diffusion Models.md",
     "Ideas/Latent CoT in AR Models.md",
     "To Read.md",
     "Papers/VoCoT.md",
