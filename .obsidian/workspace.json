@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT in diffusion Models.md",
+                "file": "Ideas/Latent CoT in AR Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CoT in diffusion Models"
+              "title": "Latent CoT in AR Models"
             }
           }
         ],
@@ -219,10 +219,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9933c391b89e469d",
+  "active": "50569d9c521a5f76",
   "lastOpenFiles": [
-    "Ideas/Latent CoT Alignment.md",
+    "Papers/Vision as a Dialect.md",
     "Ideas/CoT in diffusion Models.md",
+    "Ideas/Latent CoT Alignment.md",
     "Ideas/Latent CoT in AR Models.md",
     "To Read.md",
     "Papers/VoCoT.md",
@@ -232,7 +233,6 @@
     "Ideas/Visualizing Attention Maps.md",
     "Ideas/Latent CoT Workflow.canvas",
     "Papers/Visual CoT.md",
-    "Papers/Vision as a Dialect.md",
     "Ideas",
     "Papers/images/Pasted image 20250625232934.png",
     "Papers/images/Drawing 2025-06-25 23.45.58.excalidraw.md",
