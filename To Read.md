@@ -8,3 +8,10 @@
 - Streamline Without Sacrifice - Squeeze out Computation Redundancy in LMM
 - Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs
 - v-start : Guided Visual Search as a Core Mechanism in Multimodal LLMs
+- Attention-disentangled Uniform Orthogonal Feature Space Optimization for Few-shot Object Detection
+- MiCo: Multi-image Contrast for Reinforcement Visual Reasoning
+- Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection via Graph Score Propagation
+- Rethinking Visual Token Reduction in LVLMs under Cross-modal Misalignment
+- EAMamba: Efficient All-Around Vision State Space Model for Image Restoration
+- SCALE-AWARE RECOGNITION IN SATELLITE IMAGES UNDER RESOURCE CONSTRAINTS
+- Neural Discrete Representation Learning
