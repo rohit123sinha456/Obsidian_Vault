@@ -5,3 +5,6 @@
 - THE GEOMETRY OF ATTENTION: RICCI CURVATURE AND TRANSFORMERS TRAINING AND ROBUSTNESS
 - LEARNING MIXED-CURVATURE REPRESENTATIONS IN PRODUCTS OF MODEL SPACES
 - Deep learning as Ricci flow
+- Streamline Without Sacrifice - Squeeze out Computation Redundancy in LMM
+- Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs
+- v-start : Guided Visual Search as a Core Mechanism in Multimodal LLMs
