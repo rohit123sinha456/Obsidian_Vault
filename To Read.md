@@ -15,3 +15,4 @@
 - EAMamba: Efficient All-Around Vision State Space Model for Image Restoration
 - SCALE-AWARE RECOGNITION IN SATELLITE IMAGES UNDER RESOURCE CONSTRAINTS
 - Neural Discrete Representation Learning
+- Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders
