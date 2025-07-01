@@ -11,6 +11,12 @@ Using a Critic CoT we can expand the VoCoT as such
 { "prompt": "...", "chain_of_thought": "...", "final_answer": "...", "grounded_steps": [true, true, false], // per-step grounding "coherence_score": 4, "faithfulness": "high" }
 
 
+MMReason take a look
+MME-CoT take a look
+
+Partial-CoT, given half the CoT steps can we regenerate the rest of the CoT correctly. If the models is goinf haywire it wont do that else it would.
+
+Use Caption this read that paper dataset on VoCoT and check how good is its spatial reasoning task. What can we do for better spatial reasoing in CoT
 
 
 CoT-Critic.
