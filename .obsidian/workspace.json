@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Meeting Notes.md",
+                "file": "Ideas/CoT Dataset Infographics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meeting Notes"
+              "title": "CoT Dataset Infographics"
             }
           }
         ],
@@ -206,8 +206,9 @@
   },
   "active": "faf2330c5e15ee96",
   "lastOpenFiles": [
-    "To Read.md",
     "Ideas/Meeting Notes.md",
+    "Ideas/CoT Dataset Infographics.md",
+    "To Read.md",
     "Ideas/MintCoT Region Proposal.md",
     "Ideas/Interleaved Tokens for Reasoing.md",
     "Papers/VoCoT.md",
