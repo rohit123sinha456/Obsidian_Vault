@@ -5,4 +5,13 @@ Finetune/in-context learning of an LLM on that domain knowledge ( Like safety ma
 
 In Scene generation graphs like GAQ, we can take those questions that has multiple hops ( Like more than n hops ). We can select n like that fast and slow thinking paper did. we take n=1 hop perform inference see if the a model can answer proprly then we do n=2 hop and do the same and we n=k hop until k is the value where the model fails to give correct answer.
 
+So in VoCot like dataset, For each reasoning step we can use an auxilarry LLM to check the textutal step and the crop of the image are grounded or not ( that is the textutal reason for that image crop is valid or not).  and for each step we can come up with like a grounding score. and at the end of reasoning we can check the cumulative grounding score to see if the reasoning is valid or not. 
+
+Using a Critic CoT we can expand the VoCoT as such
+{ "prompt": "...", "chain_of_thought": "...", "final_answer": "...", "grounded_steps": [true, true, false], // per-step grounding "coherence_score": 4, "faithfulness": "high" }
+
+
+
+
+CoT-Critic.
 
