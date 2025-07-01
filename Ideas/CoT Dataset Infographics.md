@@ -14,6 +14,8 @@ Using a Critic CoT we can expand the VoCoT as such
 MMReason take a look
 MME-CoT take a look
 GFlowNet Take a look
+Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search
+
 
 Partial-CoT, given half the CoT steps can we regenerate the rest of the CoT correctly. If the models is goinf haywire it wont do that else it would.
 
