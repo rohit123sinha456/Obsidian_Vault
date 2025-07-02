@@ -21,7 +21,11 @@ Lets take the datasets from MME-CoT,MMMU, MMMUPro, MMStar, and M3CoT,VoCoT,Natur
 
 During evaluation, we will only input open-ended textual questions while excluding the image to test whether the MLLMs can answer correctly without visual input. If the model can still answer correctly without any shortcuts or visual cues, we consider the instance potentially memorized or visually weakly relevant.
 
-
+Most of these papers have MCQ based question or single answer based question. There is no Free form text answer.
+ Grounding scoring: measure **IoU** or region descriptor accuracy against reference using grounding models
+ Robustness Checks
+ Introduce **visual distractor patches** or swap image parts
+ Insert **adversarial region hints** in prompts; detect if models rely on these rather than true regions
 
 
 
