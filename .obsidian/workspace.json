@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Latent CoT in AR Models.md",
+                "file": "Ideas/CoT Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latent CoT in AR Models"
+              "title": "CoT Dataset"
             }
           }
         ],
@@ -204,7 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,13 +220,14 @@
   },
   "active": "50569d9c521a5f76",
   "lastOpenFiles": [
+    "Ideas/Learning from Teaching Videos..md",
+    "Ideas/CoT Dataset.md",
+    "Ideas/Latent CoT in AR Models.md",
     "Ideas/MintCoT Region Proposal.md",
     "Ideas/Meeting Notes.md",
-    "Ideas/CoT Dataset Infographics.md",
     "Papers/Vision as a Dialect.md",
     "Ideas/CoT in diffusion Models.md",
     "Ideas/Latent CoT Alignment.md",
-    "Ideas/Latent CoT in AR Models.md",
     "To Read.md",
     "Papers/VoCoT.md",
     "Ideas/Interleaved Tokens for Reasoing.md",
