@@ -1,0 +1,1 @@
+## BLINK is a benchmark containing 14 visual perception tasks that can be solved by humans “within a blink”, but pose significant challenges for current multimodal large language models (LLMs).

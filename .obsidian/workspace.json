@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Read.md",
+                "file": "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Read"
+              "title": "Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models"
             }
           }
         ],
@@ -192,8 +192,17 @@
   },
   "active": "e5f0b0eefdcc5fff",
   "lastOpenFiles": [
+    "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
+    "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
+    "Pasted image 20250704010859.png",
+    "Papers/images/Pasted image 20250704010806.png",
+    "Ideas/Saliency as perception token.md",
     "Ideas/CoT Dataset.md",
     "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
+    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
+    "Papers/images/Pasted image 20250704010055.png",
+    "BLINK.md",
+    "To Read.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
     "Papers/VoCoT.md",
@@ -201,7 +210,6 @@
     "Papers/images/Pasted image 20250703133217.png",
     "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
     "Ideas/Learning from Teaching Videos..md",
-    "To Read.md",
     "Ideas/CoT in diffusion Models.md",
     "Ideas/Meeting Notes.md",
     "Ideas/MintCoT Region Proposal.md",
@@ -217,14 +225,9 @@
     "Papers/Vision as a Dialect.md",
     "Ideas",
     "Papers/images/Drawing 2025-06-25 23.45.58.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-25 23.48.36.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-25 23.48.42.excalidraw.md",
     "Papers/images/Pasted image 20250625234415.png",
     "Papers/images/Pasted image 20250625232243.png",
     "Excalidraw",
-    "Papers/SigLIP2.md",
-    "Papers/Untitled 1.md",
-    "2025-06-25.md",
     "Papers/images",
     "Papers"
   ]
