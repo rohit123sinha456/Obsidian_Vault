@@ -17,3 +17,5 @@
 - Neural Discrete Representation Learning
 - Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders
 - Relook paper
+- Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual Reasoning
+- IC-Custom: Diverse Image Customization via In-Context Learning
