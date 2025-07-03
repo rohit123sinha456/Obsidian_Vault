@@ -25,44 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/VoCoT.md",
+                "file": "Ideas/CoT Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VoCoT"
-            }
-          },
-          {
-            "id": "faf2330c5e15ee96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideas/Latent CoT Alignment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Latent CoT Alignment"
-            }
-          },
-          {
-            "id": "50569d9c521a5f76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To Read.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "To Read"
+              "title": "CoT Dataset"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,28 +190,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "50569d9c521a5f76",
+  "active": "e5f0b0eefdcc5fff",
   "lastOpenFiles": [
-    "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
-    "Papers/images/Pasted image 20250703133217.png",
-    "To Read.md",
-    "Ideas/CoT Dataset.md",
-    "Ideas/Learning from Teaching Videos..md",
-    "Ideas/Latent CoT in AR Models.md",
-    "Ideas/MintCoT Region Proposal.md",
-    "Ideas/Meeting Notes.md",
-    "Papers/Vision as a Dialect.md",
-    "Ideas/CoT in diffusion Models.md",
-    "Ideas/Latent CoT Alignment.md",
     "Papers/VoCoT.md",
+    "Ideas/CoT Dataset Infographics.md",
+    "Papers/images/Pasted image 20250703133217.png",
+    "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
+    "Ideas/Learning from Teaching Videos..md",
+    "Ideas/CoT Dataset.md",
+    "To Read.md",
+    "Ideas/CoT in diffusion Models.md",
+    "Ideas/Meeting Notes.md",
+    "Ideas/MintCoT Region Proposal.md",
     "Ideas/Interleaved Tokens for Reasoing.md",
+    "Papers/images/Pasted image 20250625232934.png",
+    "Ideas/Latent CoT Alignment.md",
     "Papers/What LVLM looks at when Answering Question.md",
     "Papers/Open-Vocabulary Attention Maps.md",
     "Ideas/Visualizing Attention Maps.md",
     "Ideas/Latent CoT Workflow.canvas",
+    "Ideas/Latent CoT in AR Models.md",
     "Papers/Visual CoT.md",
+    "Papers/Vision as a Dialect.md",
     "Ideas",
-    "Papers/images/Pasted image 20250625232934.png",
     "Papers/images/Drawing 2025-06-25 23.45.58.excalidraw.md",
     "Excalidraw/Drawing 2025-06-25 23.48.36.excalidraw.md",
     "Excalidraw/Drawing 2025-06-25 23.48.42.excalidraw.md",
