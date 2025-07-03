@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
+                "file": "To Read.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks"
+              "title": "To Read"
             }
           }
         ],
@@ -192,9 +192,10 @@
   },
   "active": "e5f0b0eefdcc5fff",
   "lastOpenFiles": [
-    "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
-    "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
     "Ideas/CoT Dataset.md",
+    "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
+    "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
+    "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
     "Papers/VoCoT.md",
     "Ideas/CoT Dataset Infographics.md",
     "Papers/images/Pasted image 20250703133217.png",
@@ -225,7 +226,6 @@
     "Papers/Untitled 1.md",
     "2025-06-25.md",
     "Papers/images",
-    "Welcome.md",
     "Papers"
   ]
 }

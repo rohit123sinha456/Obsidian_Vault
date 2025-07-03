@@ -16,9 +16,7 @@ MME-CoT take a look
 GFlowNet Take a look
 Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search
 
-Lets take the datasets from MME-CoT,MMMU, MMMUPro, MMStar, and M3CoT,VoCoT,NaturalBench,VisOnlyQA. 
-
-
+Lets take the datasets from MME-CoT,MMMU, MMMUPro, MMStar, and M3CoT,VoCoT,NaturalBench,VisOnlyQA, [[GRIT]]
 During evaluation, we will only input open-ended textual questions while excluding the image to test whether the MLLMs can answer correctly without visual input. If the model can still answer correctly without any shortcuts or visual cues, we consider the instance potentially memorized or visually weakly relevant.
 
 Most of these papers have MCQ based question or single answer based question. There is no Free form text answer.
@@ -32,6 +30,7 @@ Most of these papers have MCQ based question or single answer based question. Th
 Partial-CoT, given half the CoT steps can we regenerate the rest of the CoT correctly. If the models is goinf haywire it wont do that else it would.
 
 Use Caption this read that paper dataset on VoCoT and check how good is its spatial reasoning task. What can we do for better spatial reasoing in CoT
+
 
 
 CoT-Critic.
