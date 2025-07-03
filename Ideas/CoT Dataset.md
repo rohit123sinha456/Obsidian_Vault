@@ -16,9 +16,7 @@ MME-CoT take a look
 GFlowNet Take a look
 Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search
 
-Lets take the datasets from MME-CoT,MMMU, MMMUPro, MMStar, and M3CoT,VoCoT,NaturalBench,VisOnlyQA, [[GRIT]],[[BLINK]],[[CVBench]],[[SEED-Bench]]
-
-During evaluation, we will only input open-ended textual questions while excluding the image to test whether the MLLMs can answer correctly without visual input. If the model can still answer correctly without any shortcuts or visual cues, we consider the instance potentially memorized or visually weakly relevant.
+Lets take the datasets from MME-CoT,MMMU, MMMUPro, MMStar, and M3CoT,VoCoT,NaturalBench,VisOnlyQA, [[GRIT]],[[BLINK]],[[CVBench]],[[SEED-Bench]],[[Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models|Spatial457]]. Find the common modality. During evaluation, we will only input open-ended textual questions while excluding the image to test whether the MLLMs can answer correctly without visual input. If the model can still answer correctly without any shortcuts or visual cues, we consider the instance potentially memorized or visually weakly relevant. Refere to the audio in whatsapp.
 
 Most of these papers have MCQ based question or single answer based question. There is no Free form text answer.
  Grounding scoring: measure **IoU** or region descriptor accuracy against reference using grounding models

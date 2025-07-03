@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
+                "file": "Ideas/CoT Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models"
+              "title": "CoT Dataset"
             }
           }
         ],
@@ -192,16 +192,16 @@
   },
   "active": "e5f0b0eefdcc5fff",
   "lastOpenFiles": [
-    "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
     "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
+    "Ideas/CoT Dataset.md",
+    "BLINK.md",
+    "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
     "Pasted image 20250704010859.png",
     "Papers/images/Pasted image 20250704010806.png",
     "Ideas/Saliency as perception token.md",
-    "Ideas/CoT Dataset.md",
     "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
     "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/images/Pasted image 20250704010055.png",
-    "BLINK.md",
     "To Read.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
