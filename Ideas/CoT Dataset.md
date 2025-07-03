@@ -36,3 +36,5 @@ Use Caption this read that paper dataset on VoCoT and check how good is its spat
 
 CoT-Critic.
 
+
+Combining The dataset of Caption this read that paper, 
