@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Read.md",
+                "file": "Ideas/Meeting Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Read"
+              "title": "Meeting Notes"
             }
           }
         ],
@@ -220,12 +220,13 @@
   },
   "active": "50569d9c521a5f76",
   "lastOpenFiles": [
+    "Pasted image 20250704134852.png",
+    "Ideas/CoT Dataset.md",
+    "Ideas/Meeting Notes.md",
+    "BLINK.md",
+    "To Read.md",
     "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
-    "To Read.md",
-    "BLINK.md",
-    "Ideas/Meeting Notes.md",
-    "Ideas/CoT Dataset.md",
     "Pasted image 20250704010859.png",
     "Papers/images/Pasted image 20250704010806.png",
     "Papers/images/Pasted image 20250704010055.png",
