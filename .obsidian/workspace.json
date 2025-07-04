@@ -25,16 +25,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset.md",
+                "file": "Papers/VoCoT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CoT Dataset"
+              "title": "VoCoT"
+            }
+          },
+          {
+            "id": "faf2330c5e15ee96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ideas/Latent CoT Alignment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Latent CoT Alignment"
+            }
+          },
+          {
+            "id": "50569d9c521a5f76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To Read.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "To Read"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,40 +218,39 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e5f0b0eefdcc5fff",
+  "active": "50569d9c521a5f76",
   "lastOpenFiles": [
-    "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
-    "Ideas/CoT Dataset.md",
-    "BLINK.md",
-    "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
     "Pasted image 20250704010859.png",
     "Papers/images/Pasted image 20250704010806.png",
-    "Ideas/Saliency as perception token.md",
-    "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
-    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/images/Pasted image 20250704010055.png",
-    "To Read.md",
+    "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
+    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
+    "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
+    "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
-    "Papers/VoCoT.md",
-    "Ideas/CoT Dataset Infographics.md",
-    "Papers/images/Pasted image 20250703133217.png",
+    "Ideas/Saliency as perception token.md",
+    "BLINK.md",
     "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
+    "Papers/images/Pasted image 20250703133217.png",
+    "To Read.md",
+    "Ideas/CoT Dataset.md",
     "Ideas/Learning from Teaching Videos..md",
-    "Ideas/CoT in diffusion Models.md",
-    "Ideas/Meeting Notes.md",
+    "Ideas/Latent CoT in AR Models.md",
     "Ideas/MintCoT Region Proposal.md",
-    "Ideas/Interleaved Tokens for Reasoing.md",
-    "Papers/images/Pasted image 20250625232934.png",
+    "Ideas/Meeting Notes.md",
+    "Papers/Vision as a Dialect.md",
+    "Ideas/CoT in diffusion Models.md",
     "Ideas/Latent CoT Alignment.md",
+    "Papers/VoCoT.md",
+    "Ideas/Interleaved Tokens for Reasoing.md",
     "Papers/What LVLM looks at when Answering Question.md",
     "Papers/Open-Vocabulary Attention Maps.md",
     "Ideas/Visualizing Attention Maps.md",
     "Ideas/Latent CoT Workflow.canvas",
-    "Ideas/Latent CoT in AR Models.md",
     "Papers/Visual CoT.md",
-    "Papers/Vision as a Dialect.md",
     "Ideas",
+    "Papers/images/Pasted image 20250625232934.png",
     "Papers/images/Drawing 2025-06-25 23.45.58.excalidraw.md",
     "Papers/images/Pasted image 20250625234415.png",
     "Papers/images/Pasted image 20250625232243.png",
