@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset.md",
+                "file": "To Read.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CoT Dataset"
+              "title": "To Read"
             }
           }
         ],
@@ -220,20 +220,20 @@
   },
   "active": "50569d9c521a5f76",
   "lastOpenFiles": [
+    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
+    "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
+    "To Read.md",
+    "BLINK.md",
     "Ideas/Meeting Notes.md",
     "Ideas/CoT Dataset.md",
-    "To Read.md",
     "Pasted image 20250704010859.png",
     "Papers/images/Pasted image 20250704010806.png",
     "Papers/images/Pasted image 20250704010055.png",
     "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
-    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
     "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
     "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
-    "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
     "Ideas/Saliency as perception token.md",
-    "BLINK.md",
     "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
     "Papers/images/Pasted image 20250703133217.png",
     "Ideas/Learning from Teaching Videos..md",
