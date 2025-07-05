@@ -78,3 +78,4 @@ It has designed its visual perception tasks based on [CENTRAL PROCESSINGW DYSFUN
 Explore more real Bongard problems 
 Use Wechsler scale to design brod scale problems for VLMs
 Explore the idea of mirror reflections / self positions / reasoning through occlussions / temporal causality ( like image of a tilted glass will the model say what happned next or what has happened ) / can it understand confounding causality in vision ( Like Children with Bigger Shoes Have Better Reading Skills  **Observed Relationship (in image)**: A photo shows several children lined up with **larger shoe sizes** reading books fluently, and others with **smaller shoes** struggling to read. **Confounding Variable**: **Age**)
+read this [Link](https://catalog.nlm.nih.gov/discovery/fulldisplay/alma996012263406676/01NLM_INST:01NLM_INST) so that we caan come up with something like Do you see me
