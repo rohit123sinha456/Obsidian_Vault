@@ -43,4 +43,4 @@ Combining The dataset of Caption this read that paper, those orientation image d
 |                               |     |     |     |     |     |     |     |     |
 Ref: [Bongard LOGO](https://dl.acm.org/doi/pdf/10.5555/3495724.3497106)  :
 Context dependent perception: As in Indian kitchens, a dabba of a gym suppliment can be used to store masala, if asked What is stroed in this dabba, does VLM used the context to understand what is stored in this. or An equilateral triangle can either be interpreted as equilateral_triangle or as convex, depending on other contextual images.
-Analogy making perception : 
+Analogy making perception : Eclipse and a Man Blocking a Movie: A visual analogy can simplify the concept of an eclipse by comparing it to a person standing between the viewer and a movie screen. This helps understand how the moon blocks the sun's light during an eclipse.

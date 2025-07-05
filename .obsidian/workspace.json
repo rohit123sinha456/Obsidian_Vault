@@ -23,6 +23,42 @@
             "id": "e5f0b0eefdcc5fff",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Papers/images/Pasted image 20250704010859.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250704010859"
+            }
+          },
+          {
+            "id": "24caf796db572215",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Papers/images/Pasted image 20250704134852.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250704134852"
+            }
+          },
+          {
+            "id": "8c85152775e3604c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Papers/images/Pasted image 20250704134852.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250704134852"
+            }
+          },
+          {
+            "id": "f343eb881028cfa7",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Ideas/CoT Dataset.md",
@@ -34,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -201,21 +237,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0270f18c9eff1b40",
+  "active": "f343eb881028cfa7",
   "lastOpenFiles": [
+    "HELP.md",
+    "Papers/images/Pasted image 20250704134852.png",
+    "Papers/images/Pasted image 20250704010859.png",
+    "To Read.md",
+    "Ideas/CoT Dataset.md",
+    "Papers/The Analogical Mind Perspectives from Cognitive Science.md",
     "Ideas/Meeting Notes.md",
     "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
-    "Ideas/CoT Dataset.md",
-    "Pasted image 20250704134852.png",
-    "BLINK.md",
+    "Papers/BLINK.md",
     "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
-    "Pasted image 20250704010859.png",
     "Papers/images/Pasted image 20250704010806.png",
     "Ideas/Saliency as perception token.md",
     "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
     "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/images/Pasted image 20250704010055.png",
-    "To Read.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
     "Papers/VoCoT.md",
@@ -233,8 +271,6 @@
     "Ideas/Visualizing Attention Maps.md",
     "Ideas/Latent CoT Workflow.canvas",
     "Ideas/Latent CoT in AR Models.md",
-    "Papers/Visual CoT.md",
-    "Papers/Vision as a Dialect.md",
     "Ideas",
     "Papers/images/Pasted image 20250625234415.png",
     "Papers/images/Pasted image 20250625232243.png",
