@@ -41,6 +41,12 @@ Combining The dataset of Caption this read that paper, those orientation image d
 | Concepts ><br>Benchmark v<br> |     |     |     |     |     |     |     |     |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | --- | --- |
 |                               |     |     |     |     |     |     |     |     |
-Ref: [Bongard LOGO](https://dl.acm.org/doi/pdf/10.5555/3495724.3497106)  :
-Context dependent perception: As in Indian kitchens, a dabba of a gym suppliment can be used to store masala, if asked What is stroed in this dabba, does VLM used the context to understand what is stored in this. or An equilateral triangle can either be interpreted as equilateral_triangle or as convex, depending on other contextual images.
-Analogy making perception : Eclipse and a Man Blocking a Movie: A visual analogy can simplify the concept of an eclipse by comparing it to a person standing between the viewer and a movie screen. This helps understand how the moon blocks the sun's light during an eclipse.
+Ref: [Bongard LOGO](https://dl.acm.org/doi/pdf/10.5555/3495724.3497106)   [directly inspired by the design principles behind the BPs]:
+**Context dependent perception**: As in Indian kitchens, a dabba of a gym suppliment can be used to store masala, if asked What is stroed in this dabba, does VLM used the context to understand what is stored in this. or An equilateral triangle can either be interpreted as equilateral_triangle or as convex, depending on other contextual images.
+
+**Analogy making perception** : Eclipse and a Man Blocking a Movie: A visual analogy can simplify the concept of an eclipse by comparing it to a person standing between the viewer and a movie screen. This helps understand how the moon blocks the sun's light during an eclipse.
+
+**Perception with a few examples but infinite vocabulary**: Figure 1a shows a representative example of free-form problems, where we humans cannot provide the precise name of the free-form shape, as a concept, but we are still able to easily recognize the concepts by observing the strokes, and then make the right decisions on classifying novel test images
+
+Ref: [Bongard-HOI](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Bongard-HOI_Benchmarking_Few-Shot_Visual_Reasoning_for_Human-Object_Interactions_CVPR_2022_paper.pdf)
+We introduce Bongard-HOI, a new visual reasoning benchmark that focuses on compositional learning of human-object interactions (HOIs) from natural images. It is inspired by two desirable characteristics from the classical Bongard problems (BPs): 1) few-shot concept learning, and 2) context-dependent reasoning
