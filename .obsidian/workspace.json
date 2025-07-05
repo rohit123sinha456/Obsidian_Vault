@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
+                "file": "Ideas/CoT Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models"
+              "title": "CoT Dataset"
             }
           }
         ],
@@ -192,9 +192,10 @@
   },
   "active": "e5f0b0eefdcc5fff",
   "lastOpenFiles": [
+    "Ideas/Meeting Notes.md",
+    "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
     "Ideas/CoT Dataset.md",
     "Pasted image 20250704134852.png",
-    "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
     "BLINK.md",
     "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
     "Pasted image 20250704010859.png",
@@ -212,7 +213,6 @@
     "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
     "Ideas/Learning from Teaching Videos..md",
     "Ideas/CoT in diffusion Models.md",
-    "Ideas/Meeting Notes.md",
     "Ideas/MintCoT Region Proposal.md",
     "Ideas/Interleaved Tokens for Reasoing.md",
     "Papers/images/Pasted image 20250625232934.png",
