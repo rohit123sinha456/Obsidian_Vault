@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -241,6 +241,7 @@
   "lastOpenFiles": [
     "HELP.md",
     "Ideas/CoT Dataset.md",
+    "Ideas/CoT in diffusion Models.md",
     "Papers/images/Pasted image 20250704134852.png",
     "Papers/images/Pasted image 20250704010859.png",
     "To Read.md",
@@ -261,7 +262,6 @@
     "Papers/images/Pasted image 20250703133217.png",
     "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
     "Ideas/Learning from Teaching Videos..md",
-    "Ideas/CoT in diffusion Models.md",
     "Ideas/MintCoT Region Proposal.md",
     "Ideas/Interleaved Tokens for Reasoing.md",
     "Papers/images/Pasted image 20250625232934.png",
