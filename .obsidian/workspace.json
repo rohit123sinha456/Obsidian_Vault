@@ -170,9 +170,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0270f18c9eff1b40",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -187,10 +197,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e5f0b0eefdcc5fff",
+  "active": "0270f18c9eff1b40",
   "lastOpenFiles": [
     "Ideas/Meeting Notes.md",
     "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
