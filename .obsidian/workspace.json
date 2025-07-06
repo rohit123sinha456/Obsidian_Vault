@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset.md",
+                "file": "HELP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CoT Dataset"
+              "title": "HELP"
             }
           }
         ],
@@ -239,8 +239,8 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
-    "Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8.md",
     "Ideas/CoT Dataset.md",
+    "Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8.md",
     "To Read.md",
     "HELP.md",
     "Papers/Spatial Dataset Summary.md",
