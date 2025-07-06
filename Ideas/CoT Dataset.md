@@ -76,7 +76,7 @@ Ref [Do you see me](https://arxiv.org/pdf/2506.02022)
 It has designed its visual perception tasks based on [CENTRAL PROCESSINGW DYSFUNCTIONS IN CHILDREN](https://files.eric.ed.gov/fulltext/ED040546.pdf) But ibelieved in this work we can extract more dense perception benchmark than do you see me.
 
 Explore more real Bongard problems 
-Use Wechsler scale to design brod scale problems for VLMs
+Use Wechsler scale to design broad scale problems for VLMs
 Explore the idea of mirror reflections / self positions / reasoning through occlussions / temporal causality ( like image of a tilted glass will the model say what happned next or what has happened ) / can it understand confounding causality in vision ( Like Children with Bigger Shoes Have Better Reading Skills  **Observed Relationship (in image)**: A photo shows several children lined up with **larger shoe sizes** reading books fluently, and others with **smaller shoes** struggling to read. **Confounding Variable**: **Age**)
 read this [Link](https://catalog.nlm.nih.gov/discovery/fulldisplay/alma996012263406676/01NLM_INST:01NLM_INST) ,[Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC3204942/#S2) [Link](https://www.cell.com/iscience/fulltext/S2589-0042(21)00360-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2589004221003606%3Fshowall%3Dtrue) [Link](https://oecs.mit.edu/pub/8w58nrk1/release/2) so that we caan come up with something like Do you see me
 Test hypothesis with VLMEvalKit
