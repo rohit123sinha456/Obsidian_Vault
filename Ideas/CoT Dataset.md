@@ -83,7 +83,7 @@ It has designed its visual perception tasks based on [CENTRAL PROCESSINGW DYSFUN
 - temporal causality ( like image of a tilted glass will the model say what happned next or what has happened ) 
 - can it understand confounding causality in vision ( Like Children with Bigger Shoes Have Better Reading Skills  **Observed Relationship (in image)**: A photo shows several children lined up with **larger shoe sizes** reading books fluently, and others with **smaller shoes** struggling to read. **Confounding Variable**: **Age**) 
 - Can we do a "Do This" type of percceptual task [[Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8]]
-- 
+- Can the model understand that the image pair ( DNA and zipper ) as well as (DNA and python code ) are analogous.
 
 
 
