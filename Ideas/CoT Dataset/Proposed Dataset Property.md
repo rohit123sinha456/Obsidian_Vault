@@ -30,7 +30,8 @@
 - function: A scene with several objects (e.g., chair, ball, knife, cushion) Q: Which of these objects can be sat on? or Which object affords grasping with one hand?
 - Ego Centric: A tall stool and a toddler next to it Q: Can the child sit on the stool unaided?
 - Context-Sensitive: Rainy and sun dry image: Does the umbrella afford use in this setting?
-- Perspective shifted: A book propping open a door, a shoe used to hammer a nail. like with an image of a nail, we ask what can be used to drive the nail n
+- Perspective shifted: A book propping open a door, a shoe used to hammer a nail. like with an image of a nail, we ask what can be used to drive the nail n, Shoe, or glass bottle
+- geometry and function: geometry and function Q; Which of these objects affords easy lifting? or Which surface affords sitting?
 ##### Spatio-temporal reasoning
 - If the ball is roling from left to right. If i remove the 
 ##### Multi-rule compositional reasoning
