@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
+                "file": "Ideas/CoT Dataset/CoT Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposal for Perception Dataset"
+              "title": "CoT Dataset"
             }
           }
         ],
@@ -239,11 +239,11 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
+    "HELP.md",
     "Ideas/CoT Dataset/CoT Dataset.md",
     "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "GEB Hoffstadter.md",
     "Ideas/CoT Dataset",
-    "HELP.md",
     "Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8.md",
     "To Read.md",
     "Papers/Spatial Dataset Summary.md",
