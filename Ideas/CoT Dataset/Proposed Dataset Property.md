@@ -27,6 +27,7 @@
 ##### Spatial affordance
 - If I am standing near the table can i reach the cuboard
 ##### spatio-temporal reasoning
+- If
 ##### Multi-rule compositional reasoning
 ##### Multi-step compositional reasoning
 
