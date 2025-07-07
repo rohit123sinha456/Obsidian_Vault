@@ -26,7 +26,7 @@
 - so like a mix of identifying turn problems in bongard, Mind the gap path plans, or like spatial navigation. 
 ##### Ego centric and allocentric perception ( Frame of reference switching ):
 - Can the model understand to your left or to your right. We can introduce the idea of visual fields ( cones of +- 20 degrees form the center ). So while constructing the dataset we can use this cone to say which objects are left to the "Self" and which objects are right. and later we can probe to see does the model learn this idea of cone for ego centric perception.
-- We can cover the idea of left right and other allocentric perception as per VSR
+- We can cover the idea of left right and other allocentric perception as per VSR.
 #####  Affordance Reasoning
 - Spatial:  If I am standing near the table can i reach the cuboard.
 - function: A scene with several objects (e.g., chair, ball, knife, cushion) Q: Which of these objects can be sat on? or Which object affords grasping with one hand?
