@@ -36,7 +36,8 @@
 ##### Free form answers
 - Most datasets have like options to chose from which can lead to issues as mention by MMReason. For our task can we do like free form answers for evaluations
 
-##### Conceptual slippage
+##### [Conceptual slippage](https://sci-hub.se/https://doi.org/10.1007/978-3-642-34422-0_2)
+- we show the image pair of pen->paper and then give another image of a frying pan and ask what object would it be to. So basically what a->b :  c-> ?
 ##### Figure Ground ambiguity
 ##### Analogy based
 
