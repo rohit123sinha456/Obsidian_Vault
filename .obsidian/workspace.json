@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset.md",
+                "file": "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CoT Dataset"
+              "title": "Proposal for Perception Dataset"
             }
           }
         ],
@@ -239,8 +239,10 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
+    "Ideas/CoT Dataset/CoT Dataset.md",
+    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
+    "Ideas/CoT Dataset",
     "HELP.md",
-    "Ideas/CoT Dataset.md",
     "Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8.md",
     "To Read.md",
     "Papers/Spatial Dataset Summary.md",
@@ -271,7 +273,6 @@
     "Ideas/Latent CoT Alignment.md",
     "Papers/What LVLM looks at when Answering Question.md",
     "Papers/Open-Vocabulary Attention Maps.md",
-    "Ideas/Visualizing Attention Maps.md",
     "Ideas/Latent CoT Workflow.canvas",
     "Ideas",
     "Papers/images/Pasted image 20250625234415.png",
