@@ -86,9 +86,7 @@ It has designed its visual perception tasks based on [CENTRAL PROCESSINGW DYSFUN
 - Can the model understand that the image pair ( DNA and zipper ) as well as (DNA and python code ) are analogous.
 - modelling visual conceptual slippage ( My term "conceptual slippage" is in fact no more and no less than a shorthand for this notion of "context-dependent tolerance of conceptual mismatch", The overlapping and clustering of concepts in our brains, giving rise to a "semantic halo" surrounding every content word )
 - [MIT OCW Godel escher bach lecture series](https://mitocw.ups.edu.ec/high-school/humanities-and-social-sciences/godel-escher-bach/lecture-notes/) ( nearly starting ) using these ideas in visual cognition system.
-- 
-
-
+- MMVP gives a way to investiage the wierd behaviours of vision models using idea of blind pair
 
 
 
