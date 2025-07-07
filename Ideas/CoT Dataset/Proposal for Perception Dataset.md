@@ -73,7 +73,7 @@ Chunking and Dechunking Tasks
 
 
 
-
+[Concept Craft: a Poetics of AI Art](https://www.amazon.com/Concept-Craft-Poetics-AI-Art-ebook/dp/B0C6NXMKTX/?_encoding=UTF8&pd_rd_w=i8SFx&content-id=amzn1.sym.cf86ec3a-68a6-43e9-8115-04171136930a&pf_rd_p=cf86ec3a-68a6-43e9-8115-04171136930a&pf_rd_r=135-7710023-3695358&pd_rd_wg=BZd2r&pd_rd_r=65b50959-1319-4096-bd59-e2051db01fd1&ref_=aufs_ap_sc_dsk).
 
 Conceptual slippage
 Figure Ground ambiguity
