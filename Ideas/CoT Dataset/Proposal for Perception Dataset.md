@@ -71,3 +71,13 @@ Chunking and Dechunking Tasks
 - Task Given a complex pattern, identify which subpatterns are functionally grouped (chunking), or re-compose them (dechunking).
 - Cognitive Test Can the model parse visual scenes like humans chunk words in language or notes in music?
 
+
+
+
+
+Conceptual slippage
+Figure Ground ambiguity
+Analogy based
+Perception Shift
+metaphor comprehension
+isomorphism detection
