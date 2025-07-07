@@ -81,3 +81,5 @@ Analogy based
 Perception Shift
 metaphor comprehension
 isomorphism detection
+perspective taking
+

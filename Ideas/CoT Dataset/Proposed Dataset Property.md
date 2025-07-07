@@ -17,25 +17,41 @@
 - a person drawing a picture of a person drawing a picture or like triangle fractals
 ##### Prespective shifts
 
-Abstraction Trajectory Prediction ( Bongard Turns )
-Ego centric and allocentric perception ( Frame of reference switching ) 
-Spatial affordance
+#### [Bistable perception](https://arxiv.org/html/2405.19423v1):
+- like rubins vase
+
+##### Perspective Taking
+
+#### Abstraction Trajectory Prediction ( Bongard Turns )
+##### Ego centric and allocentric perception ( Frame of reference switching ) 
+##### Spatial affordance
 - If I am standing near the table can i reach the cuboard
-spatio-temporal reasoning
-Multi-rule compositional reasoning
-Multi-step compositional reasoning
-Free form answers
+##### spatio-temporal reasoning
+##### Multi-rule compositional reasoning
+##### Multi-step compositional reasoning
 
+##### Mental Rotation
+- Mind the gap asks for similarity. we ask for what is the rotations needed to convert one object into another.
+##### Free form answers
+- Most datasets have like options to chose from which can lead to issues as mention by MMReason. For our task can we do like free form answers for evaluations
 
+##### Conceptual slippage
+##### Figure Ground ambiguity
+##### Analogy based
 
+##### Perception Shift
 
-Conceptual slippage
-Figure Ground ambiguity
-Analogy based
-Perception Shift
-metaphor comprehension
-isomorphism detection
-visual closure
-Confounding concepts
+##### metaphor comprehension
 
+##### isomorphism detection
+
+##### visual closure
+
+##### Confounding concepts
+
+##### Path Planning
+
+##### Bongard Problems
+- Can we use Bongard-LOGO and Bongard-HOI and get only the tough probelms after evaluating bu VLMs like MMReason
+- Can we think in some ways to include bongard problems in this dataset
 
