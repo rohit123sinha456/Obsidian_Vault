@@ -19,11 +19,31 @@ Recursive Structures Detection (Strange Loops) [[GEB Hoffstadter]]
 - Ask: Who is drawing the final picture?” or “How many unique artists are in this recursive loop?” or  “Which of these images contains a structure that refers to itself?”
 - Challenge Tests whether the model understands visual recursion,hierarchical loops visually and metaphor.
 
+Visual Escherian Paradoxes
+**Concept**: Use impossible objects (e.g., Penrose stairs, Escher's “Relativity”).
+**Task**:
+- Ask: _“Where is the water flowing?”_ or _“Which direction is the person walking?”_
+**Extension**:
+- Modify classic Escher scenes with slight inconsistencies and test if the model can localize the paradox.
+Purpose: Assesses spatial logic, global coherence, and whether the model detects physically impossible structures.
 
 
+Visual Metaphor Comprehension
+- **Concept**: Hofstadter loved metaphor and its role in cognition.
+- **Task**: 
+	- Match abstract shapes to metaphorical language (e.g., “This shape is like a conversation looping back on itself”).
+	- Image of a ladder with people climbing labeled “career growth.”
+	- Ask: _“What does this image mean metaphorically?”_
+**Purpose**: Probes whether VLMs can understand visuals beyond literal semantics.
 
-Visual Metaphor Matching
-- **Task**: Match abstract shapes to metaphorical language (e.g., “This shape is like a conversation looping back on itself”).
+Visual Gödel Sentence
+**Concept**: Encode self-referential logic in visual scenes.
+**Task**:
+- Present an image labeled: _“This image contains no labels.”_
+- Ask: _“Is the statement true or false?”_
+**Variation**: Use signage in a scene (e.g., _“All signs in this room are false”_).
+**Purpose**: Forces the model to resolve logical paradoxes grounded in visual perception.
+
 
 Cross-Domain Isomorphism Detection
 - Inspired by: GEB’s isomorphism between music, art, and math.
@@ -35,9 +55,10 @@ Abstraction Trajectory Prediction
 - **Task**: Given a sequence of progressively abstracted images (like sketch simplifications), predict the next or missing abstraction.
 - **Idea**: Similar to Bongard patterns but emphasizing **semantic abstraction**, not just visual change.
 
-Figure-Ground Ambiguity Resolution
+Figure-Ground Ambiguity Resolution and prespective shifts
 - Inspired by Hofstadter’s interest in ambiguity and shifting perspectives.
 - Task Present ambiguous figures (e.g., Rubin's vase) and ask VLMs to describe both interpretations
+- Task: count the number of triangles in that triangular fractal
 - Goal Test flexible perception and multi-perspective understanding.
 
 Rule Inference with Symbolic Swaps
