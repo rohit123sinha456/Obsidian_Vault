@@ -71,3 +71,11 @@
 ##### Bongard Problems
 - Can we use Bongard-LOGO and Bongard-HOI and get only the tough probelms after evaluating bu VLMs like MMReason
 - Can we think in some ways to include bongard problems concepts in natural images in this dataset or like 
+
+
+
+
+understand where the model is failing 
+taxonomy of these tasks from visual perception to reasoning
+feasibility of datasets create a table and say what can be created and what can be done
+can we elicit the failue understanding of the models in this task
