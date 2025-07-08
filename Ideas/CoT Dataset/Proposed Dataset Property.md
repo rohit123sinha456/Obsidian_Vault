@@ -39,8 +39,6 @@
 ##### Multi-rule compositional reasoning
 ##### Multi-step compositional reasoning
 
-##### Mental Rotation
-- Mind the gap asks for similarity. we ask for what is the rotations needed to convert one object into another.
 ##### Free form answers
 - Most datasets have like options to chose from which can lead to issues as mention by MMReason. For our task can we do like free form answers for evaluations
 
