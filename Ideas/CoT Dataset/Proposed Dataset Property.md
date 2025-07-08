@@ -12,17 +12,17 @@
 ##### Visual Memory ( Recalling visual stimuli after brief exposure )
 - Like PAM
 ##### Confounding concepts in Images
-- Given a pair of images 
+- Can we do this ?
 ##### Recursive Structures Detection  (Strange Loops) [[GEB Hoffstadter]]
 - a person drawing a picture of a person drawing a picture or like triangle fractals
 
-#### [Bistable perception](https://arxiv.org/html/2405.19423v1) or Figure Ground ambiguity or more genrally Perspective Shift (BiStable, Multistable etc) :
+##### [Bistable perception](https://arxiv.org/html/2405.19423v1) or Figure Ground ambiguity or more genrally Perspective Shift (BiStable, Multistable etc) :
 - like rubins vase
 
 ##### Perspective Taking
 - Understanding what a scene looks like from another viewpoint (spatial or social) What can the person behind the box see? From this angle, which object is hidden? What would person A assume is happening here? 
 
-#### Abstraction Trajectory Prediction ( Bongard Turns )
+##### Abstraction Trajectory Prediction ( Bongard Turns )
 - so like a mix of identifying turn problems in bongard, Mind the gap path plans, or like spatial navigation. 
 ##### Ego centric and allocentric perception ( Frame of reference switching ):
 - Can the model understand to your left or to your right. We can introduce the idea of visual fields ( cones of +- 20 degrees form the center ). So while constructing the dataset we can use this cone to say which objects are left to the "Self" and which objects are right. and later we can probe to see does the model learn this idea of cone for ego centric perception.
@@ -73,4 +73,3 @@
 ##### Bongard Problems
 - Can we use Bongard-LOGO and Bongard-HOI and get only the tough probelms after evaluating bu VLMs like MMReason
 - Can we think in some ways to include bongard problems concepts in natural images in this dataset or like 
-
