@@ -45,6 +45,78 @@
 ##### Visual isomorphism detection :
 - Recognizing structural similarity between different domains or formats
 - like A seesaw and a balance equation. and questions like Which of these images shares the same structure as the top image? or Identify the diagram that is isomorphic to the given network.
+- Here are **10 text pairs**, each illustrating a **different aspect of isomorphism**, including structural, functional, relational, spatial, hierarchical, cyclical, symmetrical, dynamic, algebraic, and conceptual isomorphisms:
+
+- **1. Structural Isomorphism**
+
+	**A**: _A spider web with radial lines connected by concentric circles._  
+	**B**: _A bicycle wheel with spokes radiating from the center to a circular rim._
+	
+	➡ Both have identical radial and circular structure despite different materials and contexts.
+
+-  **2. Functional Isomorphism**
+
+	**A**: _A light switch turning on a bulb._  
+	**B**: _A software button triggering a screen to light up._
+	
+	➡ Different mechanisms (physical vs. digital), same input-output relationship.
+
+-  **3. Relational Isomorphism**
+
+	**A**: _A family tree showing parent-child relationships._  
+	**B**: _A file directory tree showing folder-subfolder structure._
+	
+	➡ Nodes and hierarchical relationships are preserved across domains.
+
+- **4. Spatial Isomorphism**
+
+	**A**: _A tic-tac-toe grid with Xs and Os in diagonal opposition._  
+	**B**: _A warehouse layout with marked zones diagonally across the floor._
+	
+	➡ Relative spatial relationships are maintained.
+
+-  **5. Hierarchical Isomorphism**
+
+	**A**: _An organizational chart of a company with departments under a CEO._  
+	**B**: _A food web with apex predators at the top and producers at the bottom._
+	
+	➡ Both represent layered levels of influence or flow.
+
+-  **6. Cyclical Isomorphism**
+
+	**A**: _The water cycle: evaporation → condensation → precipitation → collection._  
+	**B**: _The software development cycle: plan → develop → test → deploy → repeat._
+	
+	➡ Different domains with an identical repeating loop structure.
+
+-  **7. Symmetrical Isomorphism**
+
+	**A**: _A butterfly’s wings mirrored on both sides of its body._  
+	**B**: _A Gothic cathedral’s front facade with identical towers._
+	
+	➡ Mirror symmetry is preserved in both visual forms.
+
+-  **8. Dynamic Isomorphism**
+
+	**A**: _A pendulum swinging left and right around a central point._  
+	**B**: _A political opinion poll swinging between two candidates over time._
+	
+	➡ Temporal fluctuation patterns are isomorphic, though one is physical and the other social.
+
+-  **9. Algebraic Isomorphism**
+
+	**A**: _Integers under addition._  
+	**B**: _Even integers under addition, mapped by doubling._
+	
+	➡ There exists a bijective homomorphism (f(x) = 2x) preserving structure.
+
+-  **10. Conceptual Isomorphism**
+
+	**A**: _A courtroom where evidence is weighed on both sides before judgment._  
+	**B**: _A balance scale weighing two substances for equilibrium._
+	
+	➡ Abstractly identical: both weigh competing entities to reach a decision.
+
 
 ##### Visual closure
 - Like do you see me, instead of figures and we identify the salient region of an image for atask and then obscure certain part of the salient image to see if the task can be completed or not.
