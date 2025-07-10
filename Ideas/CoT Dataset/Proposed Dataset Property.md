@@ -36,7 +36,13 @@
 
 ##### Perspective Taking
 - Understanding what a scene looks like from another viewpoint (spatial or social) What can the person behind the box see? From this angle, which object is hidden? What would person A assume is happening here? 
-
+- Image of two kids with a toy hidden from one. Q: Who knows where the toy is? ( Perspective type - Theory of Mind Based )
+- Image beyond line of sight or occluded from line of sight. Q: Can this person see the ball? ( Line of Sight)
+- Image showing a person facing a photoframe. Q: what image is visible to them ( Viewpoint-based perception)
+- **Image 4**: Over-the-shoulder shot of a person looking at a painting.**Q**: Which image are they looking at?  **A**: "Starry Night" (Perspective-view linking).
+- **Image 5**: A person facing a mirror, with an object behind them.**Q**: Can they see the object?  **A**: Yes, through the mirror (Indirect perception).
+- **False Belief Reasoning**: Reasoning about scenarios where the agent holds a belief that contradicts reality (classic ToM test). Sally-Anne style tasks with image sequences and prompts
+- Testing theory of mind in large language models and humans [Link]](https://www.nature.com/articles/s41562-024-01882-z.pdf)
 ##### Abstraction Trajectory Prediction ( Bongard Turns )
 - so like a mix of identifying turn problems in bongard, Mind the gap path plans, or like spatial navigation. 
 ##### Ego centric and allocentric perception ( Frame of reference switching ):
