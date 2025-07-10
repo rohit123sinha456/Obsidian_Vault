@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "283c5d567c39b5b1",
@@ -191,13 +190,13 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
-    "Ideas/Meeting Notes.md",
+    "GEB Hoffstadter.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
+    "Ideas/Meeting Notes.md",
     "HELP.md",
     "Ideas/MintCoT Region Proposal.md",
     "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "Ideas/CoT Dataset/CoT Dataset.md",
-    "GEB Hoffstadter.md",
     "Ideas/CoT Dataset",
     "Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8.md",
     "To Read.md",
