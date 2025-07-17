@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Proposed Dataset Property.md",
+                "file": "Ideas/Multimodal sparse autoencoder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposed Dataset Property"
+              "title": "Multimodal sparse autoencoder"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
-    "GEB Hoffstadter.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
+    "Ideas/Multimodal sparse autoencoder.md",
+    "GEB Hoffstadter.md",
     "Ideas/Meeting Notes.md",
     "HELP.md",
     "Ideas/MintCoT Region Proposal.md",
@@ -223,7 +224,6 @@
     "Ideas/Learning from Teaching Videos..md",
     "Ideas/Interleaved Tokens for Reasoing.md",
     "Papers/images/Pasted image 20250625232934.png",
-    "Ideas/Latent CoT Alignment.md",
     "Ideas/Latent CoT Workflow.canvas",
     "Ideas",
     "Papers/images/Pasted image 20250625234415.png",
