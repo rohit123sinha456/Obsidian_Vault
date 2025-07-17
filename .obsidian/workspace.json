@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Multimodal sparse autoencoder.md",
+                "file": "Ideas/Hierarchical Monge Alignment for Cross-Modal Learning (HiMACL).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multimodal sparse autoencoder"
+              "title": "Hierarchical Monge Alignment for Cross-Modal Learning (HiMACL)"
             }
           }
         ]
@@ -191,7 +191,7 @@
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
-    "Ideas/Multimodal sparse autoencoder.md",
+    "Ideas/Hierarchical Monge Alignment for Cross-Modal Learning (HiMACL).md",
     "GEB Hoffstadter.md",
     "Ideas/Meeting Notes.md",
     "HELP.md",
