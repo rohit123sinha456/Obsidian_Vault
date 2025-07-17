@@ -30,6 +30,28 @@ You propose **automated naming of latent features** by:
 - SAE-V does manual interpretation of feature meaning.
 
 
+Approach:-
+Create a sparse encoder for vision ( from vision encoder )
+create a sparse encoder for text (from token embedding )
+Project both of these latents into space zv,zt using projector Pv,Pt
+then minimize the contrastive loss for zv,zt ( (For positive image-text pairs; negatives are pushed apart via InfoNCE or triplet loss.))
+
+img_recon, img_sparsity, img_z = image_autoencoder(img_feat)
+txt_recon, txt_sparsity, txt_z = text_autoencoder(txt_feat)
+recon_loss = F.mse_loss(img_recon, img_feat) + F.mse_loss(txt_recon, txt_feat)
+sparsity_loss = img_sparsity + txt_sparsity
+align_loss = cosine_similarity_loss(img_z, txt_z)
+loss = recon_loss + 1e-3 * sparsity_loss + 0.1 * align_loss
+
+
+
+
+
+
+
+
+
+
 Maybe
 **Topology-Informed Interpretability (Fibre Bundle Perspective)**
 You propose a **geometric interpretation**:
