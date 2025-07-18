@@ -76,21 +76,21 @@
 	
 	➡ Both have identical radial and circular structure despite different materials and contexts.
 
--  **2. Functional Isomorphism** [ its a bit difficult to generate image ]
+-  **2. Functional Isomorphism** [ its a bit difficult to generate image so computed using that robotocs dataset ]
 
 	**A**: _A light switch turning on a bulb._  
 	**B**: _A software button triggering a screen to light up._
 	
 	➡ Different mechanisms (physical vs. digital), same input-output relationship.
 
--  **3. Relational Isomorphism**
+-  **3. Relational Isomorphism** [ kinda similar to structural so pause for now ]
 
 	**A**: _A family tree showing parent-child relationships._  
 	**B**: _A file directory tree showing folder-subfolder structure._
 	
 	➡ Nodes and hierarchical relationships are preserved across domains.
 
-- **4. Spatial Isomorphism**
+- **4. Spatial Isomorphism** [ using VSR relations and clevr generation mechanism ]
 
 	**A**: _A tic-tac-toe grid with Xs and Os in diagonal opposition._  
 	**B**: _A warehouse layout with marked zones diagonally across the floor._
