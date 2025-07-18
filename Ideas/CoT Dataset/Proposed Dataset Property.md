@@ -70,7 +70,7 @@
 - like A seesaw and a balance equation. and questions like Which of these images shares the same structure as the top image? or Identify the diagram that is isomorphic to the given network.
 - Here are **10 text pairs**, each illustrating a **different aspect of isomorphism**, including structural, functional, relational, spatial, hierarchical, cyclical, symmetrical, dynamic, algebraic, and conceptual isomorphisms:
 
-- **1. Structural Isomorphism**
+- [ - ]**1. Structural Isomorphism**
 
 	**A**: _A spider web with radial lines connected by concentric circles._  
 	**B**: _A bicycle wheel with spokes radiating from the center to a circular rim._
@@ -98,7 +98,7 @@
 	
 	➡ Relative spatial relationships are maintained.
 
--  **5. Hierarchical Isomorphism**
+-  [ - ]**5. Hierarchical Isomorphism**
 
 	**A**: _An organizational chart of a company with departments under a CEO._  
 	**B**: _A food web with apex predators at the top and producers at the bottom._
@@ -112,14 +112,14 @@
 	
 	➡ Different domains with an identical repeating loop structure.
 
--  **7. Symmetrical Isomorphism**
+-  [ - ]**7. Symmetrical Isomorphism**
 
 	**A**: _A butterfly’s wings mirrored on both sides of its body._  
 	**B**: _A Gothic cathedral’s front facade with identical towers._
 	
 	➡ Mirror symmetry is preserved in both visual forms.
 
--  **8. Dynamic Isomorphism** [ needs movement to capture certain aspects ]
+-  [ - ]**8. Dynamic Isomorphism** [ needs movement to capture certain aspects ]
 
 	**A**: _A pendulum swinging left and right around a central point._  
 	**B**: _A political opinion poll swinging between two candidates over time._
