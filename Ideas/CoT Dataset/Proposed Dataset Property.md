@@ -76,7 +76,7 @@
 	
 	➡ Both have identical radial and circular structure despite different materials and contexts.
 
--  **2. Functional Isomorphism**
+-  **2. Functional Isomorphism** [ its a bit difficult to generate image ]
 
 	**A**: _A light switch turning on a bulb._  
 	**B**: _A software button triggering a screen to light up._
