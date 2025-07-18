@@ -133,7 +133,7 @@
 	
 	➡ There exists a bijective homomorphism (f(x) = 2x) preserving structure.
 
--  **10. Conceptual Isomorphism**
+-  **10. Conceptual Isomorphism** [ try to use RAVEN ] 
 
 	**A**: _A courtroom where evidence is weighed on both sides before judgment._  
 	**B**: _A balance scale weighing two substances for equilibrium._
