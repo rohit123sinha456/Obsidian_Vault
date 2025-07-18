@@ -8,7 +8,7 @@
 - Spatial configuration Books on shelf is to office as plates on rack is to kitchen
 - Color/form mapping Green leaves is to tree as red petals is to flower
 - Object-role  Police car is to traffic as ambulance is to hospital
-- # VASR: Visual Analogies of Situation Recognition
+- VASR: Visual Analogies of Situation Recognition
 ##### Visual Metaphor Comprehension [MetaCLUE](https://arxiv.org/pdf/2212.09898)(https://arxiv.org/abs/2305.14724)
 -  Image of a ladder with people climbing labeled “career growth.”Ask: _“What does this image mean metaphorically?”_
 ##### Visual Memory ( Recalling visual stimuli after brief exposure )
