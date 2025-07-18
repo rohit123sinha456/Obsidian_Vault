@@ -119,7 +119,7 @@
 	
 	➡ Mirror symmetry is preserved in both visual forms.
 
--  **8. Dynamic Isomorphism**
+-  **8. Dynamic Isomorphism** [ needs movement to capture certain aspects ]
 
 	**A**: _A pendulum swinging left and right around a central point._  
 	**B**: _A political opinion poll swinging between two candidates over time._
