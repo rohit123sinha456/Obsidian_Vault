@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
+                "file": "Ideas/CoT Dataset/Proposed Dataset Property.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Perception Tokens Enhance Visual Reasoning in Multimodal Language Models"
+              "title": "Proposed Dataset Property"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
+    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/Open-Vocabulary Attention Maps.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
     "Papers/BLINK.md",
@@ -217,7 +218,6 @@
     "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
     "Papers/images/Pasted image 20250704010806.png",
     "Ideas/Saliency as perception token.md",
-    "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/images/Pasted image 20250704010055.png",
     "Papers/VoCoT.md",
     "Ideas/CoT Dataset Infographics.md",
