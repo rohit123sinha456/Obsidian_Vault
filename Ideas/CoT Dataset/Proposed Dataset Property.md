@@ -1,6 +1,6 @@
 
 
-##### [- ]Context-Based Perception
+##### [ - ]Context-Based Perception
 - An equilateral triangle can either be interpreted as equilateral_triangle or as convex, depending on other contextual images
 ##### [ - ] Analogy Making Perception or [Conceptual slippage](https://sci-hub.se/https://doi.org/10.1007/978-3-642-34422-0_2)
 - Shape analogy - A circle is to a sphere as a square is to a cube
@@ -66,7 +66,7 @@
 ##### Free form answers
 - Most datasets have like options to chose from which can lead to issues as mention by MMReason. For our task can we do like free form answers for evaluations
 
-##### Visual isomorphism detection :
+##### [ - ]Visual isomorphism detection :
 - Recognizing structural similarity between different domains or formats
 - like A seesaw and a balance equation. and questions like Which of these images shares the same structure as the top image? or Identify the diagram that is isomorphic to the given network.
 - Here are **10 text pairs**, each illustrating a **different aspect of isomorphism**, including structural, functional, relational, spatial, hierarchical, cyclical, symmetrical, dynamic, algebraic, and conceptual isomorphisms:
