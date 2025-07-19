@@ -1,14 +1,14 @@
 
 
-##### Context-Based Perception
+##### [- ]Context-Based Perception
 - An equilateral triangle can either be interpreted as equilateral_triangle or as convex, depending on other contextual images
-##### Analogy Making Perception or [Conceptual slippage](https://sci-hub.se/https://doi.org/10.1007/978-3-642-34422-0_2)
+##### [ - ] Analogy Making Perception or [Conceptual slippage](https://sci-hub.se/https://doi.org/10.1007/978-3-642-34422-0_2)
 - Shape analogy - A circle is to a sphere as a square is to a cube
-- Functional analogy Spoon is to bowl as fork is to plate
+- Functional analogy Spoon is to bowl as fork is to plate [ functional correspondence ]
 - Spatial configuration Books on shelf is to office as plates on rack is to kitchen
 - Color/form mapping Green leaves is to tree as red petals is to flower
 - Object-role  Police car is to traffic as ambulance is to hospital
-- VASR: Visual Analogies of Situation Recognition
+- VASR: Visual Analogies of Situation Recognition repurpose it like BLINK jigsaw puzzle type.
 ##### Visual Metaphor Comprehension [MetaCLUE](https://arxiv.org/pdf/2212.09898)(https://arxiv.org/abs/2305.14724)
 -  Image of a ladder with people climbing labeled “career growth.”Ask: _“What does this image mean metaphorically?”_
 ##### Visual Memory ( Recalling visual stimuli after brief exposure )
