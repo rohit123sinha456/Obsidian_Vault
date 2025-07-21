@@ -190,8 +190,9 @@
   },
   "active": "f343eb881028cfa7",
   "lastOpenFiles": [
-    "HELP.md",
+    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
+    "HELP.md",
     "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/Open-Vocabulary Attention Maps.md",
     "Papers/GFlowVLM Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks.md",
@@ -205,7 +206,6 @@
     "GEB Hoffstadter.md",
     "Ideas/Meeting Notes.md",
     "Ideas/MintCoT Region Proposal.md",
-    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "Ideas/CoT Dataset/CoT Dataset.md",
     "Ideas/CoT Dataset",
     "Like in Fluid Concepts & Creative Analogies--Douglas Hofstadter.pdf, chapter 8.md",
