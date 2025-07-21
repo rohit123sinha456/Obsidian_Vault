@@ -175,3 +175,6 @@ understand where the model is failing
 taxonomy of these tasks from visual perception to reasoning
 feasibility of datasets create a table and say what can be created and what can be done
 can we elicit the failue understanding of the models in this task
+
+
+Given a pair or a collection of image, match with the sentence ( Or like give the movie name ) 
