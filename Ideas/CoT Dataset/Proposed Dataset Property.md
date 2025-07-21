@@ -150,7 +150,7 @@
 
 ##### Relative spatial orientation
 - Like that captcha, that is the hand pointing in the direction of the car or something like that
-
+- We are doing that rotation match in that analogy wala thing where the crop of the iage is rotated to match the analogy
 ##### Topological Reasoning:
 - **Hole Counting Task** : Image shows several objects (e.g., donut, pretzel, mug, disk) and ask the question Which of these objects has the same number of holes as the mug?
 - Knots and Untangling : Multiple string-like figures: some are knots, others can be untangled. question like Which of these knots can be untied without cutting?
