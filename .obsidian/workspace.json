@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Proposed Dataset Property.md",
+                "file": "Learnings/Hide and Seek.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposed Dataset Property"
+              "title": "Hide and Seek"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
-    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
+    "Learnings/Hide and Seek.md",
+    "Learnings",
+    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "HELP.md",
     "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
     "Papers/Open-Vocabulary Attention Maps.md",
@@ -222,7 +224,6 @@
     "Papers/VoCoT.md",
     "Ideas/CoT Dataset Infographics.md",
     "Papers/images/Pasted image 20250703133217.png",
-    "Papers/Reasoning to Edit Hypothetical Instruction-Based Image Editing with Visual Reasoning.md",
     "Papers/images/Pasted image 20250625232934.png",
     "Ideas/Latent CoT Workflow.canvas",
     "Ideas",
