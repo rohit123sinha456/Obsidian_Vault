@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Proposed Dataset Property.md",
+                "file": "Visoutlandish Datagen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposed Dataset Property"
+              "title": "Visoutlandish Datagen"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
-    "Learnings/Hide and Seek.md",
+    "Ideas/Multimodal Priming in Visual Language Models Measuring and Mitigating Cross Modal Knowledge Permeation.md",
+    "Visoutlandish Datagen.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
+    "Learnings/Hide and Seek.md",
     "Learnings",
     "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "HELP.md",
@@ -221,8 +223,6 @@
     "Papers/images/Pasted image 20250704010806.png",
     "Ideas/Saliency as perception token.md",
     "Papers/images/Pasted image 20250704010055.png",
-    "Papers/VoCoT.md",
-    "Ideas/CoT Dataset Infographics.md",
     "Papers/images/Pasted image 20250703133217.png",
     "Papers/images/Pasted image 20250625232934.png",
     "Ideas/Latent CoT Workflow.canvas",
