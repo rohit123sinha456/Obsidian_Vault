@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPAR Research Project/Mechanistic Interpretability of Vision Models.md",
+                "file": "MATS/applicaiton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mechanistic Interpretability of Vision Models"
+              "title": "applicaiton"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
-    "Visoutlandish Datagen.md",
     "SPAR Research Project/Mechanistic Interpretability of Vision Models.md",
+    "MATS/applicaiton.md",
+    "MATS",
+    "Visoutlandish Datagen.md",
     "SPAR Research Project",
     "Ideas/Multimodal Priming in Visual Language Models Measuring and Mitigating Cross Modal Knowledge Permeation.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
@@ -221,7 +223,6 @@
     "Ideas/CoT in diffusion Models.md",
     "Papers/images/Pasted image 20250704134852.png",
     "Papers/images/Pasted image 20250704010859.png",
-    "Papers/Spatial457 A Diagnostic Benchmark for 6D Spatial Reasoning of Large Multimodal Models.md",
     "Papers/images/Pasted image 20250704010806.png",
     "Papers/images/Pasted image 20250704010055.png",
     "Papers/images/Pasted image 20250703133217.png",
