@@ -84,3 +84,97 @@ The experiment concludes by:
     
 
 This outcome beautifully demonstrates the power of the neuroalgebraic approach. By understanding the underlying geometry of the model, we were able to remove thousands of redundant parameters not only without hurting performance, but while actually improving it slightly—likely by removing noise and improving generalization.
+
+### **From Proof-of-Concept to Publication: A Research Plan**
+
+To elevate this compelling proof-of-concept into a paper suitable for a top-tier conference like ICLR or ICML, a structured research and experimentation plan is essential.
+
+#### **Phase 1: Theoretical Solidification and Literature Review**
+
+- **Objective:** To firmly establish the theoretical foundations and position our work within the current academic landscape.
+    
+- **Tasks:**
+    
+    1. **Formalize the Methodology:** Clearly articulate the mathematical framework. Define the neuromanifold, the Jacobian w.r.t. parameters, and the justification for using its rank as an estimate of local intrinsic dimension. Explicitly discuss the transition from smooth algebraic varieties (for polynomial activations) to piecewise-linear manifolds (for ReLU-based networks).
+        
+    2. **Comprehensive Literature Review:** Conduct an in-depth survey of related fields:
+        
+        - **Network Pruning:** Magnitude-based, gradient-based (SNIP, GraSP), and lottery ticket hypothesis methods.
+            
+        - **Intrinsic Dimension:** Research on estimating the intrinsic dimensionality of data manifolds and model landscapes.
+            
+        - **Geometric Deep Learning:** Broader works that apply geometric principles to understand neural networks.
+            
+
+#### **Phase 2: Generalization and Scaling Experiments**
+
+- **Objective:** To demonstrate that the proposed method is not limited to a specific model or dataset but is a general principle.
+    
+- **Experiments:**
+    
+    1. **Standard Architectures:** Apply the geometric pruning methodology to widely-used, non-algebraic architectures like **VGG-16**, **ResNet-18**, and potentially a small **Vision Transformer (ViT)**. This is crucial for demonstrating real-world applicability.
+        
+    2. **Standard Datasets:** Move beyond MNIST to more challenging image classification benchmarks, including **CIFAR-10**, **CIFAR-100**, and potentially a scaled-down experiment on **ImageNet**.
+        
+    3. **Task Diversity:** Test the method on a different domain, such as a regression task or a simple NLP model (e.g., sentiment analysis on IMDb), to show the approach is task-agnostic.
+        
+
+#### **Phase 3: Rigorous Benchmarking and Ablation Studies**
+
+- **Objective:** To quantitatively prove the superiority and robustness of our method against existing state-of-the-art (SOTA) techniques.
+    
+- **Experiments:**
+    
+    1. **Head-to-Head Comparison:** Directly benchmark "Geometric Pruning" against SOTA methods on a fixed set of models and datasets. Key metrics for comparison will be:
+        
+        - Accuracy vs. Sparsity curves.
+            
+        - Computational overhead of the pruning method itself.
+            
+        - Performance after fine-tuning.
+            
+    2. **Ablation Studies:** Systematically analyze the impact of the method's hyperparameters to understand their sensitivity and justify our default choices.
+        
+        - Vary the SVD rank estimation threshold.
+            
+        - Vary the singularity importance threshold.
+            
+        - Analyze the effect of the overall `prune_ratio`.
+            
+    3. **Analysis of Pruning Criteria:** Isolate the components of our pruning logic. Compare the performance of:
+        
+        - Pruning based _only_ on the singularity criterion.
+            
+        - Pruning based _only_ on the parameter importance criterion (which becomes a form of SVD-based magnitude pruning).
+            
+        - The proposed hybrid approach.
+            
+
+#### **Phase 4: Deeper Analysis and Interpretation**
+
+- **Objective:** To provide novel insights into the structure and behavior of neural networks, enabled by our geometric approach.
+    
+- **Analysis:**
+    
+    1. **Layer-wise Analysis:** Investigate the distribution of pruned parameters. Are certain layers more redundant than others? Does this align with existing knowledge about specific architectures (e.g., convolutional vs. fully-connected layers)?
+        
+    2. **Evolution of Dimension:** Track the estimated intrinsic dimension of the neuromanifold throughout the training process. How does it change from initialization to convergence?
+        
+    3. **Geometry and Generalization:** Explore the correlation between the geometric properties (like intrinsic dimension) and the model's generalization gap (the difference between training and test accuracy).
+        
+
+#### **Phase 5: Paper Writing and Submission**
+
+- **Objective:** To craft a compelling narrative that clearly communicates the work's novelty, significance, and impact.
+    
+- **Structure:**
+    
+    1. **Introduction:** Motivate the problem of understanding over-parameterization and introduce the geometric perspective as a novel solution.
+        
+    2. **Related Work:** Position our method based on the literature review from Phase 1.
+        
+    3. **Methodology:** Detail the formalized mathematical framework.
+        
+    4. **Experiments & Results:** Present the findings from Phases 2, 3, and 4 with clear tables, graphs, and visualizations (e.g., singular value decay plots, sparsity maps).
+        
+    5. **Conclusion:** Summarize the contributions and suggest exciting avenues for future research.
