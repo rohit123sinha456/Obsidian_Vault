@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPAR Research Project/Application Mentors Name.md",
+                "file": "SPAR Research Project/Aligning Large Language Models by Steering Sparse Autoencoder Features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Application Mentors Name"
+              "title": "Aligning Large Language Models by Steering Sparse Autoencoder Features"
             }
           }
         ]
@@ -191,8 +191,9 @@
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
     "SPAR Research Project/Critique of Chain of Thought Monitorability A New and Fragile Opportunity for AI Safety.md",
-    "SPAR Research Project/Encoded reasoning in reasoning models.md",
+    "SPAR Research Project/Aligning Large Language Models by Steering Sparse Autoencoder Features.md",
     "SPAR Research Project/Application Mentors Name.md",
+    "SPAR Research Project/Encoded reasoning in reasoning models.md",
     "SPAR Research Project/Mechanistic Interpretability of Vision Models.md",
     "SPAR Research Project/Metrics for Explanatory Faithfulness.md",
     "SPAR Research Project/Interpreting Mixture of Expert routing with SAEs.md",
@@ -219,7 +220,6 @@
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
     "Ideas/Hierarchical Monge Alignment for Cross-Modal Learning (HiMACL).md",
     "GEB Hoffstadter.md",
-    "Ideas/Meeting Notes.md",
     "Ideas/CoT Dataset",
     "Pasted image 20250706154928.png",
     "Papers/images/Pasted image 20250704134852.png",
