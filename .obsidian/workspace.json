@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPAR Research Project/Application Mentors Name.md",
+                "file": "SPAR Research Project/Encoded reasoning in reasoning models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Application Mentors Name"
+              "title": "Encoded reasoning in reasoning models"
             }
           }
         ]
@@ -190,11 +190,11 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
+    "SPAR Research Project/Application Mentors Name.md",
+    "SPAR Research Project/Mechanistic Interpretability of Vision Models.md",
+    "SPAR Research Project/Metrics for Explanatory Faithfulness.md",
     "SPAR Research Project/Interpreting Mixture of Expert routing with SAEs.md",
     "SPAR Research Project/Encoded reasoning in reasoning models.md",
-    "SPAR Research Project/Application Mentors Name.md",
-    "SPAR Research Project/Metrics for Explanatory Faithfulness.md",
-    "SPAR Research Project/Mechanistic Interpretability of Vision Models.md",
     "Ideas/NuroAlgenraic Geometry based Pruning.md",
     "MATS/applicaiton.md",
     "Untitled",

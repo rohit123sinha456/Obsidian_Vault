@@ -1,8 +1,8 @@
-Liv Gorton : Mech Interp in Vision Models
-YuXiao Li
+Liv Gorton : Mech Interp in Vision Models [x]
+YuXiao Li [x]
 Robert Krzy
-Noah Siegel
+Noah Siegel [x]
 Shivam Raval: Control Knobs
 FAR.AI
-KOLA UK:AISI
+KOLA UK:AISI [ x ]
 Aashiq Mohammad
