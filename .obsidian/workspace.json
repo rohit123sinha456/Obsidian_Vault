@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPAR Research Project/Encoded reasoning in reasoning models.md",
+                "file": "SPAR/Encoded reasoning in reasoning models.md",
                 "mode": "source",
                 "source": false
               },
@@ -188,21 +188,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "27a4641df5af7d4f",
+  "active": "9933c391b89e469d",
   "lastOpenFiles": [
-    "SPAR Research Project/Application Mentors Name.md",
-    "SPAR Research Project/Aligning Large Language Models by Steering Sparse Autoencoder Features.md",
-    "SPAR Research Project/Critique of Chain of Thought Monitorability A New and Fragile Opportunity for AI Safety.md",
-    "SPAR Research Project/Encoded reasoning in reasoning models.md",
-    "SPAR Research Project/Mechanistic Interpretability of Vision Models.md",
-    "SPAR Research Project/Metrics for Explanatory Faithfulness.md",
-    "SPAR Research Project/Interpreting Mixture of Expert routing with SAEs.md",
+    "SPAR/Application Mentors Name.md",
+    "SPAR/Aligning Large Language Models by Steering Sparse Autoencoder Features.md",
+    "SPAR/Critique of Chain of Thought Monitorability A New and Fragile Opportunity for AI Safety.md",
+    "SPAR/Encoded reasoning in reasoning models.md",
+    "SPAR/Mechanistic Interpretability of Vision Models.md",
+    "SPAR/Metrics for Explanatory Faithfulness.md",
+    "SPAR/Interpreting Mixture of Expert routing with SAEs.md",
     "Ideas/NuroAlgenraic Geometry based Pruning.md",
     "MATS/applicaiton.md",
     "Untitled",
     "MATS",
     "Visoutlandish Datagen.md",
-    "SPAR Research Project",
+    "SPAR",
     "Ideas/Multimodal Priming in Visual Language Models Measuring and Mitigating Cross Modal Knowledge Permeation.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
     "Learnings/Hide and Seek.md",
