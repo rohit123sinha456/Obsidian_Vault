@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Tools.md",
+                "file": "Ideas/MechInterp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "MechInterp"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
-    "Ideas/CoT Dataset/Evaluation Observation.md",
     "Tools/Tools.md",
+    "Ideas/MechInterp.md",
+    "Untitled 1",
+    "Ideas/CoT Dataset/Evaluation Observation.md",
     "Tools",
     "SPAR/Encoded reasoning in reasoning models.md",
     "SPAR/Application Mentors Name.md",
@@ -220,7 +222,6 @@
     "Papers/The Analogical Mind Perspectives from Cognitive Science.md",
     "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
     "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
-    "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
     "Ideas/CoT Dataset",
     "Pasted image 20250706154928.png",
     "Papers/images/Pasted image 20250704134852.png",
@@ -234,7 +235,6 @@
     "Papers/images/Pasted image 20250625234415.png",
     "Papers/images/Pasted image 20250625232243.png",
     "Excalidraw",
-    "Papers/images",
-    "Papers"
+    "Papers/images"
   ]
 }
