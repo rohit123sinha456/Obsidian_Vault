@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Evaluation Observation.md",
+                "file": "Tools/Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evaluation Observation"
+              "title": "Tools"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
-    "SPAR/Encoded reasoning in reasoning models.md",
     "Ideas/CoT Dataset/Evaluation Observation.md",
+    "Tools/Tools.md",
+    "Tools",
+    "SPAR/Encoded reasoning in reasoning models.md",
     "SPAR/Application Mentors Name.md",
     "SPAR/Aligning Large Language Models by Steering Sparse Autoencoder Features.md",
     "SPAR/Critique of Chain of Thought Monitorability A New and Fragile Opportunity for AI Safety.md",
@@ -219,7 +221,6 @@
     "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
     "Papers/Explainable Saliency Articulating Reasoning with Contextual Prioritization.md",
     "Papers/ARGUS Vision-Centric Reasoning with Grounded Chain-of-Thought.md",
-    "Ideas/Hierarchical Monge Alignment for Cross-Modal Learning (HiMACL).md",
     "Ideas/CoT Dataset",
     "Pasted image 20250706154928.png",
     "Papers/images/Pasted image 20250704134852.png",
