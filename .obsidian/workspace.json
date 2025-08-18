@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/Equivariant Algebraic Transport.md",
+                "file": "Ideas/CoT Dataset/Evaluation Observation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Equivariant Algebraic Transport"
+              "title": "Evaluation Observation"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "27a4641df5af7d4f",
   "lastOpenFiles": [
-    "Ideas/MechInterp.md",
+    "Ideas/CoT Dataset/CoT Dataset.md",
     "Ideas/Equivariant Algebraic Transport.md",
+    "Ideas/MechInterp.md",
     "Tools/Tools.md",
     "Untitled 1",
     "Ideas/CoT Dataset/Evaluation Observation.md",
@@ -221,7 +222,6 @@
     "Papers/BLINK.md",
     "Papers/What LVLM looks at when Answering Question.md",
     "Papers/The Analogical Mind Perspectives from Cognitive Science.md",
-    "Papers/FERRET REFER AND GROUND ANYTHING ANYWHERE AT ANY GRANULARITY.md",
     "Ideas/CoT Dataset",
     "Pasted image 20250706154928.png",
     "Papers/images/Pasted image 20250704134852.png",

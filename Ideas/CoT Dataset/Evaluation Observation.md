@@ -4,6 +4,10 @@ For Mental Composition Qwen did better with CoT while LLava did better with Non-
 
 For Mental Transformation Qwen Did better with hints 
 
+
+
+
+
 error analysis
 human evaluation
 verbalise
