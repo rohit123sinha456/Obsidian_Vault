@@ -18,6 +18,7 @@ llama
 phi
 internvl 3.5
 kimi models
+
 evaluate on one of the cognitive task of mental rotation
 find literature on cognitive science that can classfiy these tasks
 do some form of activation patching or attribution patching

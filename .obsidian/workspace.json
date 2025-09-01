@@ -39,12 +39,14 @@
             "id": "36b0b40fc9943812",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Ideas/CoT Dataset/Evaluation Observation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "Evaluation Observation"
             }
           }
         ],
@@ -218,9 +220,9 @@
   },
   "active": "36b0b40fc9943812",
   "lastOpenFiles": [
-    "Ideas/CoT Dataset/CoT Dataset.md",
-    "Ideas/CoT Dataset/Proposed Dataset Property.md",
     "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
+    "Ideas/CoT Dataset/Proposed Dataset Property.md",
+    "Ideas/CoT Dataset/CoT Dataset.md",
     "Ideas/CoT Dataset/Evaluation Observation.md",
     "Untitled.base",
     "Ideas/CONE STRUCTURES AND PATH GEOMETRIES WITH CONSTANTTORSION.md",
