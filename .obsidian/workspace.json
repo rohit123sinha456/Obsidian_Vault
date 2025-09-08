@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Evaluation Observation.md",
+                "file": "Ideas/CoT Dataset/taxonomy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evaluation Observation"
+              "title": "taxonomy"
             }
           }
         ],
@@ -220,10 +220,12 @@
   },
   "active": "36b0b40fc9943812",
   "lastOpenFiles": [
-    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
-    "Ideas/CoT Dataset/CoT Dataset.md",
+    "Ideas/CoT Dataset/taxonomy.md",
+    "GEB Hoffstadter.md",
     "Ideas/CoT Dataset/Evaluation Observation.md",
+    "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
+    "Ideas/CoT Dataset/CoT Dataset.md",
     "Untitled.base",
     "Ideas/CONE STRUCTURES AND PATH GEOMETRIES WITH CONSTANTTORSION.md",
     "mechinterp/Neurips 2025 Submission.md",
@@ -251,7 +253,6 @@
     "Learnings",
     "HELP.md",
     "Papers/Perception Tokens Enhance Visual Reasoning in Multimodal Language Models.md",
-    "Papers/Open-Vocabulary Attention Maps.md",
     "Ideas/CoT Dataset",
     "Pasted image 20250706154928.png",
     "Papers/images/Pasted image 20250704134852.png",
