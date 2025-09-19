@@ -53,7 +53,7 @@ POSSIBLE OUTLINE
         * Possible figure: Model performance heatmap -- models (rows) x tasks (columns) with color-coded accuracy (with human and random baseline rows). We could organize the rows in increasing order of model capability, and columns in increasing order of the ladder levels
         * Possible figure: Skill-level bar chart: group tasks by cognitive level (3 diff ladder levels we have) and show average performance per level per model (with human ceiling)
         * Short interpretation paragraph per task group (taxonomy levels)
-        * Qualitative CoT analysis: for each task, show 2–3 cases (one success, one failure) with model answers, reasoning traces and a short explanation/hypothesis (We can add 2-3 tasks here for some models and rest in the appendix)
+        * **Qualitative CoT analysis: for each task, show 2–3 cases (one success, one failure) with model answers, reasoning traces and a short explanation/hypothesis (We can add 2-3 tasks here for some models and rest in the appendix)
 
 5. More Results and Analysis
     * Results with different prompting strategies (incl ones that encourage spatial reasoning)
