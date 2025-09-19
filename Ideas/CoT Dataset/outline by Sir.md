@@ -64,7 +64,7 @@ POSSIBLE OUTLINE
     * Analysis of model scaling (Qwen 3B -> 7B -> 32B) -- please see end of outline on how we could do this
         * Possible figure: Scatter plot of model size/compute vs task performance: x = model parameter count (or FLOPs / multimodal pretraining scale), y = overall benchmark score or tiered score. We can show scaling trends or also lack thereof
     * (TO DO) Results with same architecture but trained on larger vision-text datasets; can we do this?
-    * Per-task error analysis: A bar chart or table where for each task, for each model (or we can show this for 1-2 models or Qwen family alone), we show total errors, errors when the closest answer is chosen, and errors when the other 2 answers are chosen. This can help show which distractors models pick most often — reveals systemic model biases.
+    * **Per-task error analysis: A bar chart or table where for each task, for each model (or we can show this for 1-2 models or Qwen family alone), we show total errors, errors when the closest answer is chosen, and errors when the other 2 answers are chosen. This can help show which distractors models pick most often — reveals systemic model biases.**
     * Probing internal representations: Train linear probes on visual encoder activations to predict intermediate symbolic features (e.g., number of folds in mental folding task). If probes succeed, the encoder has the info but the LM doesn’t use it.
 
 6. Discussion
