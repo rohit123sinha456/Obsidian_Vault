@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/Evaluation Observation.md",
+                "file": "Ideas/CONE STRUCTURES AND PATH GEOMETRIES WITH CONSTANTTORSION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evaluation Observation"
+              "title": "CONE STRUCTURES AND PATH GEOMETRIES WITH CONSTANTTORSION"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/CoT Dataset/outline by Sir.md",
+                "file": "Ideas/CoT Dataset/taxonomy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "outline by Sir"
+              "title": "taxonomy"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 467.5
   },
   "right": {
     "id": "283c5d567c39b5b1",
@@ -218,19 +218,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36b0b40fc9943812",
+  "active": "78e57b7eb289f818",
   "lastOpenFiles": [
-    "Ideas/CoT Dataset/abstract.md",
+    "Ideas/Meeting Notes.md",
+    "Untitled.base",
     "Ideas/CoT Dataset/outline by Sir.md",
+    "Ideas/CoT Dataset/Evaluation Observation.md",
     "Ideas/CoT Dataset/CoT Dataset.md",
+    "Ideas/CoT Dataset/abstract.md",
+    "mechinterp/Neurips 2025 Submission.md",
     "Ideas/CoT Dataset/taxonomy.md",
     "Ideas/CoT Dataset/Proposed Dataset Property.md",
-    "GEB Hoffstadter.md",
-    "Ideas/CoT Dataset/Evaluation Observation.md",
     "Ideas/CoT Dataset/Proposal for Perception Dataset.md",
-    "Untitled.base",
+    "GEB Hoffstadter.md",
     "Ideas/CONE STRUCTURES AND PATH GEOMETRIES WITH CONSTANTTORSION.md",
-    "mechinterp/Neurips 2025 Submission.md",
     "mechinterp",
     "Ideas/Learning with Confidence.md",
     "Ideas/Equivariant Algebraic Transport.md",
@@ -251,7 +252,6 @@
     "Visoutlandish Datagen.md",
     "SPAR",
     "Ideas/Multimodal Priming in Visual Language Models Measuring and Mitigating Cross Modal Knowledge Permeation.md",
-    "Learnings/Hide and Seek.md",
     "Learnings",
     "Ideas/CoT Dataset",
     "Pasted image 20250706154928.png",
