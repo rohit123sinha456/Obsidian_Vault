@@ -139,7 +139,7 @@ SOME GENERAL CONSIDERATIONS
 
 
 
-Teaser image
+- Teaser image
 Vision tower abalation
 write up the plots interpretation
 increate the main table with smaller models
