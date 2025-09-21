@@ -134,3 +134,13 @@ SOME GENERAL CONSIDERATIONS
 * Report error bars/confidence intervals for plots/tables wherever possible
 * Use consistent color palettes; order tasks by cognitive level in all plots so patterns are readable.
 * Include small insets with sample images near plots that refer to particular data points (e.g., place a sample image next to a confusion cell that corresponds to the most common error)
+
+
+
+
+
+Teaser image
+Vision tower abalation
+write up the plots interpretation
+increate the main table with smaller models
+in appendix include the tables for all type pf promtps ( each prompt type one table)
