@@ -141,7 +141,7 @@ SOME GENERAL CONSIDERATIONS
 
 - Teaser image
 Vision tower abalation
-write up the plots interpretation
+- write up the plots interpretation
 - increate the main table with smaller models
-in appendix include the tables for all type pf promtps ( each prompt type one table)
+- in appendix include the tables for all type pf promtps ( each prompt type one table)
 - add random base line in task specific plots as dotted lines
