@@ -11,7 +11,7 @@ Search:
 		2. Far distractors: replace all the options with options that have very low similarity with the correct answer.
 	2. Then we can check the performance of the model in both the close distractor set and far distracttor set and see if distractors play any role
 4. Option negation: We can negate the correct option[2] to see if the model still selects that option, so we can see if some kind of string matching happens or not.
-5. Options Substitution : We can replace the option set of a IQA instance with the option set of another IQA instance to see if there is any memorization happening of QA pairs. If a model memorizes question - answer pairs, substituting the entire option set from other instances should break such memorization.
+5. Options Substitution : We can replace the option set of a IQA instance with the option set of another IQA instance to see if there is any memorization happening of QA pairs. If a model memorizes question - answer pairs, substituting the entire option set from other instances should break such memorization.hhhhh
 6. Give an image and 4 questions ( 1 true questions associated with that image and 3 questions from other instances). Ask the model to match which is the perfect question. see if the model can correct match the questions to the image ( check image to questions grounding )
 7. 
 
