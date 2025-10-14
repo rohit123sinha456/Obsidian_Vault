@@ -9,3 +9,7 @@ Search:
 
 
 
+
+Papers
+- Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM [https://arxiv.org/pdf/2411.03823]
+
