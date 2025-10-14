@@ -14,7 +14,8 @@ Search:
 5. Options Substitution : We can replace the option set of a IQA instance with the option set of another IQA instance to see if there is any memorization happening of QA pairs. If a model memorizes question - answer pairs, substituting the entire option set from other instances should break such memorization.
 6. Give an image and 4 questions ( 1 true questions associated with that image and 3 questions from other instances). Ask the model to match which is the perfect question. see if the model can correct match the questions to the image ( check image to questions grounding )
 7. Paraphrase the questions in a way that doesn't use that same keywords or same context words to see if that gives any changes in the models performance. This can test model's dependence on context keywords versus models grounding capabilities.
-8. 
+8. Difficulty gradation: using aflite we can use multiple model consensus to grade the difficulty of question across all the 14 benchmarks and select the difficult ones.
+9. 
 
 
 
@@ -22,5 +23,5 @@ Search:
 Papers
 [1] Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM [https://arxiv.org/pdf/2411.03823]
 [2] VQA-LOL: Visual Question Answering under the Lens of Logic [https://arxiv.org/pdf/2002.08325]
-[3] Adversarial Filters of Dataset Biases[ https://arxiv.org/pdf/2002.04108 ]
+[3] AFLite: Adversarial Filters of Dataset Biases[ https://arxiv.org/pdf/2002.04108 ]
 
