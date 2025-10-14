@@ -4,4 +4,4 @@ Search:
  - perplexity [ rittika bita ] - has 2 thread
 
 1. Noisy image experiment : [Aditya] - make the image gray scale and see if an MLLM is sill answering the question
-2. 
+2. Minimal-pairs / contrast sets (compositionality & local edits). What it finds: Reliance on hackable surface cues; failure on small but meaning-changing edits. How: Build _contrast sets_ by minimally editing questions (negation, quantifier, relation flip) or options; track flips in ground truth vs predictions. Citations: Contrast sets (NLP general), Winoground (vision-language minimal pairs), SugarCrepe (de-biased compositionality).
