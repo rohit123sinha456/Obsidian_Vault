@@ -17,6 +17,8 @@ Search:
 8. Difficulty gradation: using aflite we can use multiple model consensus to grade the difficulty of question across all the 14 benchmarks and select the difficult ones.
 9. We can split IQA across train and test split so language priors answer differs across this split like what colour is the sky blue-> in trains set, white-> in test set ) VQA-CP style
 10. Hallucination possible instances: instance for which multiple models hallucinate multiple times, POPE (CVPR’24), THRONE (CVPR’24), Hallucinogen (2024).
+11. These contrast sets [4] came up multiplle time in various papers. try to think of something
+12. 
 
 
 
@@ -25,6 +27,6 @@ Papers
 [1] Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM [https://arxiv.org/pdf/2411.03823]
 [2] VQA-LOL: Visual Question Answering under the Lens of Logic [https://arxiv.org/pdf/2002.08325]
 [3] AFLite: Adversarial Filters of Dataset Biases[ https://arxiv.org/pdf/2002.04108 ]
-
+[4] Evaluating Models’ Local Decision Boundaries via Contrast Sets [https://arxiv.org/pdf/2004.02709]
 Self RQ
 is hallucination in VLM based on image or text; we cacn do that noisy image experiment to check once.
