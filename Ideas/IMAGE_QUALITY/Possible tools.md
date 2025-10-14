@@ -6,7 +6,8 @@ Search:
 1. Noisy image experiment : [Aditya] - make the image gray scale and see if an MLLM is sill answering the question
 2. Option Rotation: We can rotate the option to see if the position of the options effect the models performance [1]
 3. Option negation: We can negate the correct option[2] to see if the model still selects that option, so we can see if some kind of string matching happens or not.
-4. 
+4. Give an image and 4 questions ( 1 true questions associated with that image and 3 questions from other instances). Ask the model to match which is the perfect question. see if the model can correct match the questions to the image ( check image to questions grounding )
+5. 
 
 
 
