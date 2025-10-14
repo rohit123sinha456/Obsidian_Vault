@@ -22,4 +22,5 @@ Search:
 Papers
 [1] Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM [https://arxiv.org/pdf/2411.03823]
 [2] VQA-LOL: Visual Question Answering under the Lens of Logic [https://arxiv.org/pdf/2002.08325]
+[3] Adversarial Filters of Dataset Biases[ https://arxiv.org/pdf/2002.04108 ]
 
