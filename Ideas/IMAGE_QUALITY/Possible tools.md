@@ -4,12 +4,14 @@ Search:
  - perplexity [ rittika bita ] - has 2 thread
 
 1. Noisy image experiment : [Aditya] - make the image gray scale and see if an MLLM is sill answering the question
-2. Minimal-pairs / contrast sets (compositionality & local edits). What it finds: Reliance on hackable surface cues; failure on small but meaning-changing edits. How: Build _contrast sets_ by minimally editing questions (negation, quantifier, relation flip) or options; track flips in ground truth vs predictions. Citations: Contrast sets (NLP general), Winoground (vision-language minimal pairs), SugarCrepe (de-biased compositionality).
-
+2. Option Rotation: We can rotate the option to see if the position of the options effect the models performance [1]
+3. Option negation: We can negate the correct option[2] to see if the model still selects that option, so we can see if some kind of string matching happens or not.
+4. 
 
 
 
 
 Papers
-- Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM [https://arxiv.org/pdf/2411.03823]
+[1] Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM [https://arxiv.org/pdf/2411.03823]
+[2] VQA-LOL: Visual Question Answering under the Lens of Logic [https://arxiv.org/pdf/2002.08325]
 
