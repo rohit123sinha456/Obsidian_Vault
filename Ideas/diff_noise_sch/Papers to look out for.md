@@ -143,4 +143,13 @@ The point I am trying to make is that from these 2 works we can take insights wh
 
 [Various way to look at diffusion model](https://sander.ai/2023/07/20/perspectives.html) Its a must read. read and write the insight from it.
 
-[Constant Rate Scheduling: A General Framework for Optimizing Diffusion Noise Schedule via Distributional Change](https://openreview.net/pdf?id=Pjq6kdvMBj) 
+[Training-free Diffusion Acceleration with Bottleneck Sampling](https://arxiv.org/html/2503.18940v1) Read and write insights.
+
+[Constant Rate Scheduling: A General Framework for Optimizing Diffusion Noise Schedule via Distributional Change](https://openreview.net/pdf?id=Pjq6kdvMBj) I think our FANS design can benefit from this work. it says that as diffusion models the distribution changes form one time step to another until a gaussian becomes a complete image ( reverse process ) and vice versa, they schedule the noise based on this rate of change of the distribution. They use various measure to measure this change in distribution. simply put they assign.
+![[Pasted image 20251021193423.png]]
+
+
+[GENERATIVE MODELLING WITH INVERSE HEAT DISSIPATION](https://openreview.net/pdf?id=4PJUBT9f2Ol) I think this a new paradigm. take a look at it. It looks promising.
+
+
+[Understanding Diffusion Objectives as the ELBO with Simple Data Augmentation](https://openreview.net/pdf?id=NnMEadcdyD) Read and give insights.
