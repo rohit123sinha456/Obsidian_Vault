@@ -143,3 +143,4 @@ The point I am trying to make is that from these 2 works we can take insights wh
 
 [Various way to look at diffusion model](https://sander.ai/2023/07/20/perspectives.html) Its a must read. read and write the insight from it.
 
+[Constant Rate Scheduling: A General Framework for Optimizing Diffusion Noise Schedule via Distributional Change](https://openreview.net/pdf?id=Pjq6kdvMBj) 
