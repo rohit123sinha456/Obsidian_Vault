@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas/diff_noise_sch/Papers to look out for.md",
+                "file": "Ideas/diff_noise_sch/codex prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Papers to look out for"
+              "title": "codex prompt"
             }
           },
           {
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "283c5d567c39b5b1",
@@ -220,9 +221,10 @@
   },
   "active": "92c0dcfae2611c2a",
   "lastOpenFiles": [
+    "Ideas/diff_noise_sch/Papers to look out for.md",
+    "Ideas/diff_noise_sch/codex prompt.md",
     "Pasted image 20251021193423.png",
     "Ideas/NPLL/Reliable sampling from Importancce sampling.md",
-    "Ideas/diff_noise_sch/Papers to look out for.md",
     "Ideas/NPLL",
     "Ideas/diff_noise_sch/Chatgpt of FANS.md",
     "Ideas/diff_noise_sch/Reviewed Works.md",
