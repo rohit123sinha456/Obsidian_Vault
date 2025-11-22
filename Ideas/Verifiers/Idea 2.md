@@ -8,4 +8,3 @@ Problems needed to be solved.
 2. Get the steering vector.
 3. what kind of data do we need for the steering vector.
 4. Does applyng steering vector in bettwen reasoning trace works ? If nor what can be the formulation to do that.
-5. 
