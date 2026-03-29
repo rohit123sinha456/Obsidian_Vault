@@ -39,10 +39,14 @@
             "id": "36b0b40fc9943812",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ICML Rebuttal.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ICML Rebuttal"
             }
           }
         ],
@@ -216,6 +220,7 @@
   },
   "active": "36b0b40fc9943812",
   "lastOpenFiles": [
+    "ICML Rebuttal.md",
     "Ideas/Verifiers/Idea.md",
     "Ideas/Verifiers/Idea 2.md",
     "Ideas/CoT Dataset/taxonomy.md",
@@ -252,7 +257,6 @@
     "Ideas/Learning with Confidence.md",
     "Ideas/Equivariant Algebraic Transport.md",
     "Ideas/MechInterp.md",
-    "Tools/Tools.md",
     "Pasted image 20250706154928.png",
     "Papers/images/Pasted image 20250704134852.png",
     "Papers/images/Pasted image 20250704010859.png",
