@@ -39,14 +39,10 @@
             "id": "36b0b40fc9943812",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideas/Verifiers/Idea 2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Idea 2"
+              "title": "New tab"
             }
           }
         ],
@@ -193,8 +189,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
