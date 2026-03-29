@@ -1,5 +1,9 @@
 
 
+# AC Rebutt
+
+
+
 # Reviewer: hKzx
 Score: 3 ( weak reject)
 
@@ -216,6 +220,9 @@ Unified notation; inline spectral contraction definition; practitioner's decisio
 
 
 
+
+
+
 # Reviewer E1PX
 score: 2 (reject)
 
@@ -317,6 +324,65 @@ This table demonstrates the framework's explanatory power: it provides a systema
 4. **Sharper novelty framing** (Section 1): The contribution is the *conjunction* of axioms as a minimal algebraic structure for residual mixing, not any individual axiom.
 
 We hope the reviewer will reconsider the novelty assessment in light of these clarifications. The contribution is not three known axioms, but the discovery that their conjunction defines a *minimal sufficient algebraic structure* governing stable residual propagation — a structure that unifies, explains, and strictly generalizes the current state-of-the-art (Birkhoff-constrained mixing) while opening a concrete design space with empirical validation across nine benchmarks and four backbones.
+
+
+
+
+
+
+----
+------- 5000 words-----------
+
+---
+
+We thank Reviewer E1PX for the constructive feedback. We respectfully argue that the review may underestimate the contribution by evaluating individual axioms in isolation rather than the framework they jointly define.
+
+**1. "Novelty of axioms is limited… tied to previous advances in stable learning."**
+
+We agree individual ingredients are known — by design. The novelty lies in three contributions no prior work achieves:
+
+**(a) Identifying these three properties as the minimal sufficient set for stable residual mixing in multi-stream GNNs.** Spectral normalization constrains a single layer's weight matrix; our framework constrains the _residual stream mixer_. Residual mixers compose across depth ($\prod_{\ell=1}^{L} H_\ell$), creating algebraic requirements — closure and identity anchoring — absent when normalizing individual matrices. A spectrally normalized matrix has no guarantee the admissible set is closed under multiplication or that identity initialization is reachable.
+
+**(b) Proving doubly stochastic structure is sufficient but not necessary.** Prior SOTA (mHC-GNN) attributed success to doubly stochastic properties. Section 3.5 proves Birkhoff ⊂ Spectral Norm Ball, extending stability to a strictly larger operator family — resolving whether mean preservation is essential.
+
+**(c) Opening an empirically validated design space.** Table 1 shows new instantiations substantially outperform baselines (Cora: 70.53→75.30 Spectral; Wisconsin: 53.59→69.32 Orthogonal). Table 2: at 128 layers, all contractive variants remain above 72% while baselines degrade to 14.47%. That differences _among_ contractive monoids are modest is what theory predicts (Theorem 4.3: identical over-smoothing rate) — confirming the _algebraic structure_, not specific instantiation, matters.
+
+We will add discussion contrasting with spectral normalization (Miyato et al., 2018), orthogonal RNNs (Arjovsky et al., 2016), and Lipschitz-bounded networks, clarifying why compositional residual mixing requires axioms beyond norm constraints.
+
+**2. "Novelty of theoretical results could be emphasized better."**
+
+We agree. Key novelties:
+
+**Theorem 4.1** provides the first manifold-agnostic perturbation bound for multi-stream residual GNNs, _decoupling_ the mixer's contribution from the GNN layer's — contractive mixing contributes zero amplification regardless of graph structure. This explains cross-backbone generalization (Table 3).
+
+**Theorem 4.3** generalizes the $(1-\gamma)^{L/n}$ over-smoothing slowdown from Birkhoff-specific to any contractive monoid. The Birkhoff proof exploits mean preservation and non-negativity, unavailable generally; our proof uses spectral decomposition and near-identity operator bounds.
+
+**Theorem 4.5** bounds _stream-level_ diversity collapse, explaining why multi-stream architectures with contractive mixing avoid degenerating to single-stream MPNNs at depth (Finding 6).
+
+**Theorem 4.6** connects residual mixing constraints to the WL hierarchy for the first time, showing contractive-monoid mixing on an edge lift exceeds 1-WL.
+
+We will add a "Technical Contributions" preamble to Section 4.
+
+**3. "Why Birkhoff emphasis? Why not discuss other oversmoothing methods?"**
+
+Birkhoff is primary because mHC-GNN is SOTA in manifold-constrained residual mixing — our thesis (_is doubly stochasticity necessary?_) requires it as baseline.
+
+We agree connections to other methods were underdeveloped:
+
+- **PairNorm/DiffGroupNorm:** Post-hoc feature normalization; does not constrain the residual mixer (no axioms satisfied). Complementary.
+- **GCNII:** Initial-residual provides _partial_ identity anchoring (Axiom 3) but no non-expansiveness — explaining partial success and degradation beyond 16 layers.
+- **DropEdge:** Reduces spectral gap γ stochastically; does not constrain the mixer. Orthogonal intervention.
+- **DRew/Rewiring:** Modifies graph topology for over-squashing; different component entirely.
+
+We will add a table (Section 2.5) mapping methods to axiom satisfaction, demonstrating our framework's explanatory power.
+
+**Planned Revisions:** (1) Prior-work differentiation (Section 2); (2) Technical contributions preamble (Section 4); (3) Axiom-mapping table (new Section 2.5); (4) Sharper framing: the contribution is the _conjunction_ as minimal algebraic structure — unifying, explaining, and strictly generalizing SOTA across nine benchmarks and four backbones.
+
+
+
+
+
+
 
 
 ----------------------------------------------
@@ -450,6 +516,50 @@ We will add:
 We are grateful for the constructive and forward-looking nature of this review. The five research questions map directly onto the most promising extensions of the framework, and we are confident the proposed revisions will strengthen both the accessibility and completeness of the paper.
 
 
+---
+----- 5000 words.
+
+We sincerely thank Reviewer xSV9 for the thoughtful evaluation. We address each question and suggestion below.
+
+**Q1: Sensitivity to operator norm choice?**
+
+Our axioms use the spectral norm due to its tight connection to worst-case amplification (Theorem 4.1), but Definition 3.4 is norm-agnostic. The **infinity norm** ($|H|_\infty \leq 1$) constrains maximum absolute row sum and yields a valid contractive monoid: closed under multiplication (submultiplicativity), contains identity, satisfies non-expansiveness. Geometrically, it controls per-node bounds rather than global energy — natural for heterogeneous degree distributions.
+
+Crucially, the **Frobenius norm** is _not_ submultiplicative ($|AB|_F \leq |A|_F|B|_2$), so ${H : |H|_F \leq 1}$ violates compositional closure (Axiom 2). Our framework thus explains _a priori_ why operator norms are structurally appropriate for residual mixing while the Frobenius norm — despite its ubiquity in regularization — is not. We will add a remark in Section 3.1.
+
+**Q2: Combination with attention or dynamic rewiring?**
+
+Yes — our experiments already demonstrate one half. The contractive monoid constrains the residual mixer $H_\ell^{res}$ (Eq. 5), architecturally independent of message computation in $F_\ell$.
+
+**Attention:** Table 3 reports GAT backbone results. Standard GAT on Cora shows 44.23 ± 26.25 — extraordinarily high variance indicating instability — while all contractive variants cluster around 75% (Orthogonal: 75.17 ± 1.10, Spectral: 75.07 ± 0.12). Contractive mixing stabilizes the residual pathway, allowing attention to operate without crippling deep GATs.
+
+**Rewiring:** In Theorem 4.3, rewiring changes the spectral gap γ while the monoid controls residual composition. These are multiplicatively separable: $(1-\gamma)^{L/n} \cdot (1+\epsilon)^L$. Combining both addresses over-squashing (rewiring) and over-smoothing (contractive mixing) simultaneously. We will highlight this in Section 6.5.
+
+**Q3: Does $(1-\gamma)^{L/n}$ persist for directed graphs?**
+
+For **diagonalizable** non-symmetric P with $|\lambda_2(P)| \leq 1-\gamma$, the same argument applies via Schur decomposition, preserving the n-fold slowdown. For **non-diagonalizable** P, Jordan blocks introduce polynomial prefactors eventually dominated by exponential contraction.
+
+Importantly, the contractive monoid axioms are entirely graph-agnostic — Definition 3.4 makes no reference to graph symmetry. The symmetry assumption appears only in Theorem 4.3's rate analysis, not in stability (Theorem 4.1), diversity preservation (4.5), or expressiveness (4.6). The architectural prescription applies equally to directed graphs. We will add a remark clarifying which results depend on symmetry.
+
+**Q4: How large can n grow?**
+
+Table 4 ($n \in {2,4,8,16}$, Texas) directly addresses this. Contractive variants show monotonic improvement (Spectral: 52→69→71→73) while unconstrained mixing saturates at n=8. This confirms Theorem 4.3: more streams slow over-smoothing as $(1-\gamma)^{L/n}$, but only when the mixer satisfies contractive axioms.
+
+**Cost:** Proposition A.1 shows O(Nn²d) overhead — 0.13% at n=4,d=128; ~2% at n=16. Memory: n=16 on PubMed requires ~40MB/layer, manageable on modern GPUs. Practical sweet spot: n ∈ [4,16].
+
+**Q5: Cases where Birkhoff strictly outperforms?**
+
+Yes: Birkhoff achieves the highest mean on 3/9 datasets (Actor, CiteSeer, Cornell). Theorem 4.5 explains this — mean-preserving mixers ($H\mathbf{1}=\mathbf{1}$) guarantee tighter diversity preservation. Birkhoff wins where moderate baseline accuracy suggests conservative mass-preserving mixing suffices. On heterophilic datasets (Wisconsin: homophily 0.21), orthogonal/spectral monoids outperform Birkhoff by selectively rotating information — operations forbidden by doubly stochastic constraints. This reinforces our thesis: monoid choice should be informed by graph properties, and our framework provides vocabulary for principled selection.
+
+**Presentation Suggestions**
+
+We will add: (1) An intuitive overview paragraph at Section 3's start describing the three axioms in plain language before equations; (2) A containment hierarchy diagram (Diagonal ⊂ Orthogonal ⊂ Spectral Norm Ball, Birkhoff as structured subset); (3) Plain-language fractional diffusion explanation: with n streams, each layer applies $P^{1/n}$, requiring n layers for the same contraction as one single-stream layer, yielding an n-fold slowdown independent of monoid choice; (4) Restructured Section 6 leading with depth scaling (Table 2) and collapse diagnostics (Figure 1), moving per-backbone breakdown to appendix.
+
+We are grateful for the constructive nature of this review.
+
+
+
+
 -----------
 
 # Reviewer U8J1
@@ -536,6 +646,63 @@ We conduct depth sweeps (8–64 layers) on ogbn-arxiv to test depth-stability at
 Combined with the original paper's 9 datasets × 4 backbones × depth sweeps to 128 layers, the expanded evaluation now covers **18 benchmarks** spanning node-level and graph-level tasks, homophilic and heterophilic graphs, small and large scale, and depths from 2 to 128 layers. Across all settings, the central finding holds: **contractive-monoid structure — not any specific manifold — is the operative principle behind stable deep residual propagation.**
 
 We believe these results, together with the theoretical contributions the reviewer has already assessed favorably, present a complete picture. All new experiments will be incorporated into the revised manuscript.
+
+
+
+
+---
+-----------in 5000 words-------------------
+
+We thank the reviewer for recognizing the technical robustness of our framework. The sole concern — limited empirical evaluation on small, outdated benchmarks — is well-taken. We have completed a substantially expanded evaluation spanning **9 additional benchmarks** across heterophilic node classification, graph-level tasks (LRGB), and large-scale node classification (ogbn-arxiv).
+
+**1. Modern Heterophilic Node Classification (Platonov et al., 2023)**
+
+We evaluate on five benchmarks recommended as standard replacements for WebKB/Wikipedia datasets. Setup: 8-layer GCN, 4 streams, hidden dim 128, 5 seeds.
+
+|Dataset|Metric|Standard GCN|Unconstrained|Birkhoff|Orthogonal|Spectral|
+|---|---|---|---|---|---|---|
+|Roman-Empire|Acc|47.1±3.3|67.3±2.2|72.0±1.4|72.4±1.5|**73.4±1.4**|
+|Amazon-Ratings|Acc|37.6±2.7|43.7±1.7|46.8±1.4|**47.5±1.5**|47.4±1.5|
+|Minesweeper|AUC|77.6±2.7|86.4±1.7|89.2±1.2|88.8±1.0|**89.3±1.4**|
+|Tolokers|AUC|73.7±2.6|79.9±1.5|81.8±0.8|81.9±1.0|**82.8±1.2**|
+|Questions|AUC|69.3±2.1|73.6±1.2|74.7±0.8|75.2±1.1|**75.9±1.1**|
+
+All contractive-monoid variants substantially outperform both baselines on every dataset, with improvements up to **26 points** over standard GCN (Roman-Empire: 47.1→73.4). The best monoid varies by dataset (Finding 3), confirming no single instantiation universally dominates. Our GCN baseline on Roman-Empire (47.1%) is consistent with Platonov et al. (2023).
+
+**2. LRGB Graph-Level Tasks (Dwivedi et al., 2022)**
+
+Three benchmarks explicitly requiring deep propagation — precisely where depth stability matters most. Setup: 8-layer GCN, 4 streams, 5 seeds.
+
+|Dataset|Metric|Standard GCN|Unconstrained|Birkhoff|Orthogonal|Spectral|
+|---|---|---|---|---|---|---|
+|Peptides-func|AP↑|0.599±0.008|0.638±0.010|0.662±0.008|0.665±0.008|**0.676±0.009**|
+|Peptides-struct|MAE↓|0.341±0.012|0.285±0.008|0.274±0.006|0.272±0.006|**0.266±0.007**|
+|PascalVOC-SP|F1↑|0.176±0.015|0.238±0.012|0.265±0.010|0.264±0.010|**0.266±0.012**|
+
+Spectral improves F1 by **51%** over standard GCN on PascalVOC-SP (0.176→0.266). Birkhoff, Orthogonal, and Spectral are effectively tied on PascalVOC-SP, reinforcing our thesis: the contractive-monoid structure — not the specific manifold — drives stability. These results extend validation to graph-level tasks for the first time.
+
+**3. Large-Scale Node Classification: ogbn-arxiv (169K nodes, 1.2M edges)**
+
+Depth sweeps (8–64 layers), 4 streams, hidden dim 128, 5 seeds.
+
+|Depth|Standard GCN|Unconstrained|Birkhoff|Orthogonal|Spectral|
+|---|---|---|---|---|---|
+|8|69.5±0.4|70.8±0.5|71.7±0.4|71.7±0.2|71.7±0.3|
+|16|54.5±2.8|69.0±1.0|**70.8±0.6**|70.7±0.4|70.5±0.5|
+|32|34.4±4.0|68.0±1.4|**70.2±0.4**|70.0±0.6|70.2±0.7|
+|64|19.4±3.8|65.3±1.6|**69.3±0.6**|69.0±0.8|69.2±0.7|
+
+Standard GCN collapses from 69.5% to 19.4% — a **50-point degradation**. All contractive variants remain above 68% at 64 layers, directly validating Theorems 4.1 and Proposition 3.2. Contractive constraints become decisive at depth: modest gap at 8 layers (~2 points) but critical at 64, consistent with compositional stability from Axiom 2. At 64 layers, Birkhoff (69.3), Orthogonal (69.0), and Spectral (69.2) converge to near-identical performance — supporting our central argument that shared contractive-monoid structure, not doubly-stochastic mixing specifically, prevents collapse.
+
+**Summary**
+
+|Experiment|Benchmarks|Core Finding|
+|---|---|---|
+|Heterophilic (Platonov)|5 datasets|All contractive monoids outperform baselines; best varies by dataset|
+|LRGB (graph-level)|3 tasks|Up to 51% improvement; long-range propagation enabled|
+|ogbn-arxiv (large-scale)|4 depths|50-point stability gap at 64 layers|
+
+Combined with the original 9 datasets × 4 backbones × depth sweeps to 128 layers, evaluation now covers **18 benchmarks** spanning node- and graph-level tasks, homophilic and heterophilic graphs, small and large scale, depths 2–128. Across all settings: **contractive-monoid structure is the operative principle behind stable deep residual propagation.** All new experiments will be incorporated into the revision.
 
 -----
 
