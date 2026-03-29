@@ -167,7 +167,41 @@ The main text (Sections 1–6.5, ending with References on page 9) is within the
 --------------------------------------------------
 --------------- in 5000 characters----------------
 
+We thank the reviewer for the careful reading. We address each concern below.
 
+### 1. Presentation: Notation and Clarity
+
+We acknowledge these inconsistencies and will revise: (a) Unify notation by introducing $h^{(\ell)}$ as a flattened alias of $x_i^l$ at the start of Section 3, with a mapping table in the appendix. (b) Add the formal definition of "spectral contraction" (the factor $(1-\gamma)$ from the spectral gap, with $\lambda_2(P) \leq 1-\gamma$, fully stated in Appendix B.3) inline before Theorem 4.3. (c) Add explicit definitions of "diffusion rate" (rate at which graph convolution contracts pairwise node distances, governed by $\gamma$) and "mixing rate" (perturbation from $H_\ell$, bounded by $|H_\ell - I|_2 \leq \epsilon$) after Proposition 3.1.
+
+### 2. Significance of Theoretical Results
+
+The theory provides **safety guarantees with predictive structure, not point optimization.** It characterizes which algebraic properties a residual mixer must satisfy for stable deep propagation — non-expansiveness, compositional closure, identity anchoring — whereas prior work offered only the Birkhoff polytope as viable.
+
+The theory is predictive: Section 3.5 establishes a containment hierarchy (Diagonal ⊂ Orthogonal ⊂ Spectral Norm Ball ⊇ Birkhoff), identifying the spectral norm ball as maximally expressive. This is empirically confirmed: it achieves the best result on 4/8 datasets (Table 1). Finding 3 validates the expressiveness–structure trade-off: diagonal contraction shows systematically lower means than less restrictive sets. The orthogonal group, theoretically exactly norm-preserving, excels on heterophilic benchmarks (Wisconsin 69.32, Table 1).
+
+**On Theorem 4.3:** The contribution is _generalization_, not tighter bounds. Prior work proved $(1-\gamma)^{L/n}$ over-smoothing slowdown only for Birkhoff mixing. Our theorem proves the identical rate for _any_ contractive monoid (Remark B.4). This is the appropriate result for our thesis that Birkhoff is sufficient but not necessary.
+
+**Actionable guidance:** We will add a practitioner's decision table: Spectral Norm Ball for max expressiveness, Orthogonal for exact norm preservation (heterophilic graphs), Diagonal for $O(n)$ computational efficiency, Birkhoff for mean/mass conservation. The theory provides a structured design space with interpretable trade-offs.
+
+### 3. Necessity of $|H_\ell|_2 \leq 1$ in Theorem 4.1
+
+The reviewer correctly notes the product grows exponentially. This is exactly why the decoupling matters. The bound in Eq. (14) contains only GNN-layer terms; $H_\ell$ is _absent_ precisely because $|H_\ell|_2 \leq 1$. Without the constraint, the recursion yields $\prod_\ell(|H_\ell|_2 + L_\ell|G_\ell||K_\ell|)$ instead of $\prod_\ell(1 + L_\ell|G_\ell||K_\ell|)$. Even small $|H_\ell|_2 = 1+\delta$ introduces an additional $(1+\delta)^L$ factor compounding independently of the GNN's amplification.
+
+Empirically, Figure 1(a,b) shows unconstrained mixing leads to high cosine similarity and rapid variance decay, while contractive variants remain stable. At 128 layers on Cora (Table 2), standard GCN degrades to 14.47% while contractive variants stay above 72%. We will add an ablation tracking $|H_\ell|_2$ across layers.
+
+### 4. Role of Axiom 2 (Compositional Closure)
+
+The reviewer is correct that **norm closure** follows from submultiplicativity. However, Axiom 2 requires **set membership closure**: $H_aH_b \in \mathcal{M}$, not merely $|H_aH_b| \leq 1$. This matters when $\mathcal{M}$ has structural constraints beyond the norm. Example: symmetric matrices with $|H|_2 \leq 1$ are each non-expansive, but the product $AB$ of symmetric $A,B$ is generally not symmetric, so it leaves the set despite satisfying the norm bound.
+
+**We acknowledge an error:** Section 3.2 claims row-stochastic matrices are not closed under multiplication — they are. We will replace this with the symmetric-matrix example and a second example: doubly stochastic matrices with at most $k$ nonzeros per row (products can fill additional entries). Axiom 2 serves as a design criterion for future monoid construction, ruling out structurally appealing but compositionally unstable sets.
+
+### 5. Missing Proof of Proposition 3.3
+
+We apologize for this omission. **Proof:** Let $f \in \mathcal{F}_L$. Construct a depth-$(L+1)$ network with $H_{L+1}=I$ (feasible by Axiom 3) and $F_{L+1}\equiv 0$. Then $h^{(L+1)}=h^{(L)}$, so the same function is computed. This holds for every $f$, giving $\mathcal{F}_L \subseteq \mathcal{F}_{L+1}$. Without Axiom 3, one cannot set $H_{L+1}=I$, so the inclusion could fail — this is why identity anchoring is axiomatically necessary. The proof will be added to Appendix B.
+
+### 6. Length and Impact Statement
+
+The main text (Sections 1–6.5) is within the ICML 8+1 page limit; material beyond page 10 is appendix. We will add a broader impact statement noting that enabling stable deep GNNs may benefit drug discovery, materials science, and social network analysis, with no foreseen negative consequences specific to this contribution.
 
 
 
